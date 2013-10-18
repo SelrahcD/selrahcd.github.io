@@ -1,7 +1,7 @@
 /* ==========================================================================
    Imports
    ========================================================================== */
-/* line 6, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_normalize.scss */
+/* line 6, ../sass/_normalize.scss */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset,
@@ -16,61 +16,61 @@ summary, time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 15, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_normalize.scss */
+/* line 15, ../sass/_normalize.scss */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block;
 }
 
-/* line 16, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_normalize.scss */
+/* line 16, ../sass/_normalize.scss */
 body {
   line-height: 1;
 }
 
-/* line 17, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_normalize.scss */
+/* line 17, ../sass/_normalize.scss */
 ul {
   list-style: none;
 }
 
-/* line 18, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_normalize.scss */
+/* line 18, ../sass/_normalize.scss */
 blockquote, q {
   quotes: none;
 }
 
-/* line 20, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_normalize.scss */
+/* line 20, ../sass/_normalize.scss */
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none;
 }
 
-/* line 21, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_normalize.scss */
+/* line 21, ../sass/_normalize.scss */
 :focus {
   outline: none;
 }
 
-/* line 22, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_normalize.scss */
+/* line 22, ../sass/_normalize.scss */
 ins {
   text-decoration: none;
 }
 
-/* line 23, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_normalize.scss */
+/* line 23, ../sass/_normalize.scss */
 del {
   text-decoration: line-through;
 }
 
-/* line 24, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_normalize.scss */
+/* line 24, ../sass/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 25, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_normalize.scss */
+/* line 25, ../sass/_normalize.scss */
 a {
   text-decoration: none;
 }
 
-/* line 26, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_normalize.scss */
+/* line 26, ../sass/_normalize.scss */
 * {
   box-sizing: border-box;
 }
@@ -113,20 +113,20 @@ a {
    - Mobile
    - Tablets
    ========================================================================== */
-/* line 39, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_grid.scss */
+/* line 39, ../sass/_grid.scss */
 body {
   width: 100%;
 }
-/* line 11, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_mixins.scss */
+/* line 11, ../sass/_mixins.scss */
 body:before, body:after {
   content: "";
   display: table;
 }
-/* line 14, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_mixins.scss */
+/* line 14, ../sass/_mixins.scss */
 body:after {
   clear: both;
 }
-/* line 17, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_mixins.scss */
+/* line 17, ../sass/_mixins.scss */
 body {
   zoom: 1;
 }
@@ -139,19 +139,19 @@ body {
    ========================================================================== */
 /* Meat
    ========================================================================== */
-/* line 11, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_type.scss */
+/* line 11, ../sass/_type.scss */
 p {
   font-size: 22px;
   line-height: 33px;
 }
 
-/* line 16, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_type.scss */
+/* line 16, ../sass/_type.scss */
 .intro {
   font-size: 32px;
   line-height: 1.4em;
 }
 
-/* line 21, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_type.scss */
+/* line 21, ../sass/_type.scss */
 .post ul li {
   font-size: 22px;
   line-height: 33px;
@@ -160,118 +160,118 @@ p {
 
 /* Headings
    ========================================================================== */
-/* line 32, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_type.scss */
+/* line 32, ../sass/_type.scss */
 h1, .h1 {
   font-size: 64px;
 }
 
-/* line 33, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_type.scss */
+/* line 33, ../sass/_type.scss */
 h2, .h2 {
   font-size: 48px;
 }
 
-/* line 34, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_type.scss */
+/* line 34, ../sass/_type.scss */
 h3, .h3 {
   font-size: 32px;
 }
 
-/* line 35, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_type.scss */
+/* line 35, ../sass/_type.scss */
 h4, .h4 {
   font-size: 24px;
 }
 
-/* line 36, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_type.scss */
+/* line 36, ../sass/_type.scss */
 h5, .h5 {
   font-size: 16px;
 }
 
-/* line 37, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_type.scss */
+/* line 37, ../sass/_type.scss */
 h6, .h6 {
   font-size: 12px;
 }
 
-/* line 39, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_type.scss */
+/* line 39, ../sass/_type.scss */
 .meta {
   font-size: 12px;
 }
 
-/* line 41, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_type.scss */
+/* line 41, ../sass/_type.scss */
 blockquote, blockquote p {
   font-size: 48px;
 }
 
-/* line 43, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_type.scss */
+/* line 43, ../sass/_type.scss */
 .archive input {
   font-size: 48px;
 }
 
 @media only screen and (max-width: 480px) {
-  /* line 54, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_type.scss */
+  /* line 54, ../sass/_type.scss */
   p {
     font-size: 16px;
     line-height: 24px;
   }
 
-  /* line 59, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_type.scss */
+  /* line 59, ../sass/_type.scss */
   .intro {
     font-size: 24px;
     line-height: 1.4em;
   }
 
-  /* line 64, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_type.scss */
+  /* line 64, ../sass/_type.scss */
   .post ul li {
     font-size: 16px;
     line-height: 24px;
     margin-bottom: 12px;
   }
 
-  /* line 70, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_type.scss */
+  /* line 70, ../sass/_type.scss */
   h1, .h1 {
     font-size: 48px;
   }
 
-  /* line 71, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_type.scss */
+  /* line 71, ../sass/_type.scss */
   h2, .h2 {
     font-size: 32px;
   }
 
-  /* line 72, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_type.scss */
+  /* line 72, ../sass/_type.scss */
   h3, .h3 {
     font-size: 24px;
   }
 
-  /* line 73, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_type.scss */
+  /* line 73, ../sass/_type.scss */
   h4, .h4 {
     font-size: 16px;
   }
 
-  /* line 74, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_type.scss */
+  /* line 74, ../sass/_type.scss */
   h5, .h5 {
     font-size: 12px;
   }
 
-  /* line 75, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_type.scss */
+  /* line 75, ../sass/_type.scss */
   h6, .h6 {
     font-size: 12px;
   }
 
-  /* line 77, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_type.scss */
+  /* line 77, ../sass/_type.scss */
   .meta {
     font-size: 12px;
   }
 
-  /* line 79, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_type.scss */
+  /* line 79, ../sass/_type.scss */
   blockquote, blockquote p {
     font-size: 24px;
   }
 
-  /* line 81, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_type.scss */
+  /* line 81, ../sass/_type.scss */
   .archive input {
     font-size: 32px;
   }
 }
 /************ Basic *************/
-/* line 3, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 3, ../sass/_styles.scss */
 body {
   font-family: "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif;
   color: #3b3b3b;
@@ -284,17 +284,17 @@ body {
   overflow-x: hidden;
 }
 
-/* line 14, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 14, ../sass/_styles.scss */
 h1, h2, h3, h4, h5 {
   font-family: "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif;
 }
 
-/* line 18, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 18, ../sass/_styles.scss */
 p {
   margin-bottom: 33px;
 }
 
-/* line 22, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 22, ../sass/_styles.scss */
 a, a:visited, a:active {
   color: #8ab9d1;
   -moz-transition: all 0.25s ease-in-out;
@@ -304,7 +304,7 @@ a, a:visited, a:active {
   transition: all 0.25s ease-in-out;
 }
 
-/* line 27, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 27, ../sass/_styles.scss */
 a:hover {
   color: #24536b;
   -moz-transition: all 0.25s ease-in-out;
@@ -314,24 +314,24 @@ a:hover {
   transition: all 0.25s ease-in-out;
 }
 
-/* line 32, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 32, ../sass/_styles.scss */
 em {
   padding: 1px 2px;
   border-radius: 2px;
   background: #ffe8c0;
 }
 
-/* line 38, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 38, ../sass/_styles.scss */
 strong {
   font-weight: bold;
 }
 
-/* line 42, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 42, ../sass/_styles.scss */
 small {
   font-size: 16px;
 }
 
-/* line 46, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 46, ../sass/_styles.scss */
 .hilite {
   display: inline-block;
   padding: 0 0.3em;
@@ -341,7 +341,7 @@ small {
   background: #fffbd7;
 }
 
-/* line 53, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 53, ../sass/_styles.scss */
 blockquote, blockquote p {
   font-style: italic;
   line-height: 1.3em;
@@ -351,7 +351,7 @@ blockquote, blockquote p {
 }
 
 /*   Code Formatting    */
-/* line 64, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 64, ../sass/_styles.scss */
 code {
   color: #24536b;
   font-family: "Monaco", "Courier New", "Courier";
@@ -359,7 +359,7 @@ code {
   font-weight: bold;
 }
 
-/* line 71, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 71, ../sass/_styles.scss */
 .highlight {
   background: #3b3b3b;
   padding: 12px;
@@ -367,95 +367,32 @@ code {
   margin-bottom: 33px;
   overflow-x: scroll;
 }
-/* line 78, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 78, ../sass/_styles.scss */
 .highlight code {
   color: #f9f9f9;
   font-family: "Monaco", "Courier New", "Courier";
   font-size: .9em;
 }
-/* line 82, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 82, ../sass/_styles.scss */
 .highlight code .lineno {
   margin-right: 16.5px;
   color: #d9d9d9;
   line-height: 2em;
 }
-/* line 87, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 87, ../sass/_styles.scss */
 .highlight code .nt {
   color: #c85b5c;
 }
-/* line 90, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 90, ../sass/_styles.scss */
 .highlight code .na, .highlight code .na, .highlight code .no, .highlight code .nv, .highlight code .vc, .highlight code .vg, .highlight code .vi {
   color: #f0e687;
 }
-/* line 93, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 93, ../sass/_styles.scss */
 .highlight code .s, .highlight code .sb, .highlight code .sc, .highlight code .sd, .highlight code .s2, .highlight code .se, .highlight code .sh, .highlight code .si, .highlight code .sx, .highlight code .s1 {
   color: #87ceeb;
 }
-/* line 96, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
-.highlight code .c, .highlight code .cm, .highlight code c1 {
-  color: #999988;
-}
-/* line 99, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
-.highlight code .err {
-  color: #a61717;
-  background-color: #e3d2d2;
-}
-/* line 102, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
-.highlight code .k, .highlight code .o, .highlight code .gs, .highlight code .kc, .highlight code .kd, .highlight code .kp, .highlight code .kr, .highlight code .ow {
-  font-weight: bold;
-}
-/* line 105, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
-.highlight code .cp, .highlight code .cs, .highlight code .gh, .highlight code .bp {
-  color: #999999;
-}
-/* line 108, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
-.highlight code .gd, .highlight code .gd .x, .highlight code .gi, .highlight code .gi .x {
-  color: #000000;
-}
-/* line 111, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
-.highlight code .gr, .highlight code .gt {
-  color: #aa0000;
-}
-/* line 114, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
-.highlight code .kt, .highlight code .nc {
-  color: #445588;
-  font-weight: bold;
-}
-/* line 117, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
-.highlight code .m, .highlight code .mf, .highlight code .mh, .highlight code .mi, .highlight code .mo, .highlight code .il {
-  color: #009999;
-}
-/* line 120, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
-.highlight code .nb {
-  color: #0086B3;
-}
-/* line 123, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
-.highlight code .ni {
-  color: #800080;
-}
-/* line 126, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
-.highlight code .ne, .highlight code .nf {
-  color: #990000;
-  font-weight: bold;
-}
-/* line 129, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
-.highlight code .nn, .highlight code .gp {
-  color: #555555;
-}
-/* line 132, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
-.highlight code .nt {
-  color: #000080;
-}
-/* line 135, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
-.highlight code .sr {
-  color: #009926;
-}
-/* line 138, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
-.highlight code .ss {
-  color: #990073;
-}
 
-/* line 146, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 101, ../sass/_styles.scss */
 hr {
   display: block;
   margin: 0 auto;
@@ -467,53 +404,53 @@ hr {
   border-radius: 2px;
 }
 
-/* line 157, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 112, ../sass/_styles.scss */
 input {
   background: none;
   border: none;
   outline: none;
 }
 
-/* line 163, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 118, ../sass/_styles.scss */
 .archive input {
   background: none;
   outline: none;
   width: 100%;
   font-family: "Calendas Plus", "Crimson Text", "Hoefler Text", "Georgia", serif;
 }
-/* line 168, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 123, ../sass/_styles.scss */
 .archive input:focus {
   background: white;
   color: #3b3b3b;
 }
 
 /* Variables and Building Blocks */
-/* line 176, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 131, ../sass/_styles.scss */
 .icons {
   font-family: "Icons";
   font-size: 14px;
   line-height: 20px;
 }
 
-/* line 182, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 137, ../sass/_styles.scss */
 .bb {
   border-bottom: 2px solid #8ab9d1;
 }
 
-/* line 186, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 141, ../sass/_styles.scss */
 .pad-top {
   padding-top: 66px;
 }
 
 /************ Layout *************/
-/* line 192, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 147, ../sass/_styles.scss */
 #bump {
   min-height: 100%;
   height: auto;
   margin: 0 auto-320px;
 }
 
-/* line 198, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 153, ../sass/_styles.scss */
 .wrap {
   max-width: 960px;
   display: inline;
@@ -524,21 +461,21 @@ input {
   margin: 0 auto;
   overflow: hidden;
 }
-/* line 11, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_mixins.scss */
+/* line 11, ../sass/_mixins.scss */
 .wrap:before, .wrap:after {
   content: "";
   display: table;
 }
-/* line 14, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_mixins.scss */
+/* line 14, ../sass/_mixins.scss */
 .wrap:after {
   clear: both;
 }
-/* line 17, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_mixins.scss */
+/* line 17, ../sass/_mixins.scss */
 .wrap {
   zoom: 1;
 }
 
-/* line 207, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 162, ../sass/_styles.scss */
 .post {
   display: inline;
   float: left;
@@ -551,19 +488,19 @@ input {
 }
 
 /* Header */
-/* line 218, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 173, ../sass/_styles.scss */
 header.site-header {
   padding: 20px 0;
   position: absolute;
   width: 100%;
   z-index: 5000;
 }
-/* line 224, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 179, ../sass/_styles.scss */
 header.site-header .wrap {
   max-width: 90vw;
 }
 
-/* line 232, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 187, ../sass/_styles.scss */
 #bump .darken a {
   color: #3b3b3b;
   -moz-transition: all 0.2s ease-in-out;
@@ -572,7 +509,7 @@ header.site-header .wrap {
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 236, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 191, ../sass/_styles.scss */
 #bump .darken a:hover {
   color: #8ab9d1;
   -moz-transition: all 0.2s ease-in-out;
@@ -581,40 +518,40 @@ header.site-header .wrap {
   -ms-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-/* line 242, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 197, ../sass/_styles.scss */
 #bump .darken .menu .icons {
   color: #3b3b3b;
 }
-/* line 246, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 201, ../sass/_styles.scss */
 #bump .darken nav ul li a {
   color: #3b3b3b;
 }
-/* line 248, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 203, ../sass/_styles.scss */
 #bump .darken nav ul li a:active {
   color: #8ab9d1;
 }
-/* line 251, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 206, ../sass/_styles.scss */
 #bump .darken nav ul li a:hover {
   text-shadow: none;
   color: #8ab9d1;
 }
 
-/* line 260, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 215, ../sass/_styles.scss */
 header.site-header a.menu {
   display: none;
 }
 
-/* line 264, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 219, ../sass/_styles.scss */
 header.site-header hgroup h1, header.site-header nav ul {
   font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
 }
 
-/* line 267, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 222, ../sass/_styles.scss */
 header.site-header hgroup {
   float: left;
   padding-left: 5vw;
 }
-/* line 270, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 225, ../sass/_styles.scss */
 header.site-header hgroup h1 {
   font-weight: 700;
   font-size: 18px;
@@ -623,7 +560,7 @@ header.site-header hgroup h1 {
   letter-spacing: 2px;
   text-transform: uppercase;
 }
-/* line 278, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 233, ../sass/_styles.scss */
 header.site-header hgroup a {
   color: #fff;
   -moz-transition: all 0.2s ease;
@@ -632,7 +569,7 @@ header.site-header hgroup a {
   -ms-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-/* line 282, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 237, ../sass/_styles.scss */
 header.site-header hgroup a:hover {
   text-shadow: 0 0 3px rgba(255, 255, 255, 0.6);
   -moz-transition: all 0.2s ease;
@@ -642,26 +579,26 @@ header.site-header hgroup a:hover {
   transition: all 0.2s ease;
 }
 
-/* line 289, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 244, ../sass/_styles.scss */
 header.site-header nav {
   float: right;
   display: block;
   padding-right: 5vw;
 }
-/* line 11, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_mixins.scss */
+/* line 11, ../sass/_mixins.scss */
 header.site-header nav:before, header.site-header nav:after {
   content: "";
   display: table;
 }
-/* line 14, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_mixins.scss */
+/* line 14, ../sass/_mixins.scss */
 header.site-header nav:after {
   clear: both;
 }
-/* line 17, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_mixins.scss */
+/* line 17, ../sass/_mixins.scss */
 header.site-header nav {
   zoom: 1;
 }
-/* line 295, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 250, ../sass/_styles.scss */
 header.site-header nav ul li {
   font-size: 16px;
   text-transform: uppercase;
@@ -671,7 +608,7 @@ header.site-header nav ul li {
   position: relative;
   margin-left: 20px;
 }
-/* line 303, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 258, ../sass/_styles.scss */
 header.site-header nav ul li a {
   color: white;
   -moz-transition: all 0.2s ease;
@@ -680,7 +617,7 @@ header.site-header nav ul li a {
   -ms-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-/* line 306, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 261, ../sass/_styles.scss */
 header.site-header nav ul li a:hover {
   text-shadow: 0 0 3px rgba(255, 255, 255, 0.6);
   -moz-transition: all 0.2s ease;
@@ -691,12 +628,12 @@ header.site-header nav ul li a:hover {
 }
 
 /* Article Stuff */
-/* line 318, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 273, ../sass/_styles.scss */
 .article {
   position: relative;
   margin-bottom: 33px;
 }
-/* line 322, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 277, ../sass/_styles.scss */
 .article .overlay {
   vertical-align: middle;
   min-height: 360px;
@@ -707,11 +644,11 @@ header.site-header nav ul li a:hover {
   z-index: 2;
   background: rgba(0, 0, 0, 0.55);
 }
-/* line 332, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 287, ../sass/_styles.scss */
 .article .overlay-lighter {
   background: rgba(0, 0, 0, 0.1);
 }
-/* line 336, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 291, ../sass/_styles.scss */
 .article .featured-image {
   vertical-align: middle;
   min-height: 360px;
@@ -728,15 +665,15 @@ header.site-header nav ul li a:hover {
   top: 0;
   z-index: -1;
 }
-/* line 351, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 306, ../sass/_styles.scss */
 .article .featured-image img {
   max-height: 800px;
 }
-/* line 357, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 312, ../sass/_styles.scss */
 .article header {
   margin: 66px 0 33px 0;
 }
-/* line 359, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 314, ../sass/_styles.scss */
 .article header hgroup {
   color: #3b3b3b;
   position: relative;
@@ -744,7 +681,7 @@ header.site-header nav ul li a:hover {
   width: 100%;
   margin-top: 0;
 }
-/* line 365, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 320, ../sass/_styles.scss */
 .article header hgroup .date {
   font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
   font-size: 16px;
@@ -753,12 +690,12 @@ header.site-header nav ul li a:hover {
   text-transform: uppercase;
   margin-top: 22px;
 }
-/* line 375, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 330, ../sass/_styles.scss */
 .article header .intro {
   text-align: left;
 }
 
-/* line 383, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 338, ../sass/_styles.scss */
 .archive {
   display: inline;
   float: left;
@@ -770,7 +707,7 @@ header.site-header nav ul li a:hover {
   min-height: 500px;
 }
 
-/* line 391, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 346, ../sass/_styles.scss */
 .archive-wrap {
   display: inline;
   float: left;
@@ -782,7 +719,7 @@ header.site-header nav ul li a:hover {
   float: none;
   padding-top: 140px;
 }
-/* line 400, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 355, ../sass/_styles.scss */
 .archive-wrap .post-list {
   list-style-type: none;
   list-style: none;
@@ -794,11 +731,11 @@ header.site-header nav ul li a:hover {
   display: block;
   float: none;
 }
-/* line 408, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 363, ../sass/_styles.scss */
 .archive-wrap .post-list lh h2 {
   margin-bottom: 49.5px;
 }
-/* line 412, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 367, ../sass/_styles.scss */
 .archive-wrap .post-list li {
   display: block;
   float: none;
@@ -806,11 +743,11 @@ header.site-header nav ul li a:hover {
   margin-bottom: 66px;
   position: relative;
 }
-/* line 419, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 374, ../sass/_styles.scss */
 .archive-wrap .post-list li a {
   position: relative;
 }
-/* line 421, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 376, ../sass/_styles.scss */
 .archive-wrap .post-list li a:hover {
   -moz-transition: all 1s ease-in-out;
   -o-transition: all 1s ease-in-out;
@@ -818,7 +755,7 @@ header.site-header nav ul li a:hover {
   -ms-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
-/* line 426, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 381, ../sass/_styles.scss */
 .archive-wrap .post-list li a:hover:before {
   content: '...';
   color: #d9d9d9;
@@ -835,7 +772,7 @@ header.site-header nav ul li a:hover {
   -ms-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
-/* line 439, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 394, ../sass/_styles.scss */
 .archive-wrap .post-list li a:before {
   content: '“';
   color: #d9d9d9;
@@ -852,21 +789,21 @@ header.site-header nav ul li a:hover {
   -ms-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
-/* line 453, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 408, ../sass/_styles.scss */
 .archive-wrap .post-list li h1 {
   font-size: 32px;
   font-style: italic;
 }
-/* line 459, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 414, ../sass/_styles.scss */
 .archive-wrap .post-list .summary {
   font-size: 18px;
   line-height: 1.45em;
 }
-/* line 464, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 419, ../sass/_styles.scss */
 .archive-wrap .post-list .date {
   margin-bottom: 3px;
 }
-/* line 468, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 423, ../sass/_styles.scss */
 .archive-wrap .post-list .date time {
   position: relative;
   top: -3px;
@@ -879,17 +816,17 @@ header.site-header nav ul li a:hover {
   vertical-align: middle;
 }
 
-/* line 484, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 439, ../sass/_styles.scss */
 .post {
   min-height: 500px;
 }
-/* line 488, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 443, ../sass/_styles.scss */
 .post .deets {
   position: relative;
   top: 45px;
   z-index: 5;
 }
-/* line 492, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 447, ../sass/_styles.scss */
 .post .deets .date {
   font-size: 16px;
   position: relative;
@@ -898,25 +835,25 @@ header.site-header nav ul li a:hover {
   color: #999999;
   margin-bottom: 16.5px;
 }
-/* line 502, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 457, ../sass/_styles.scss */
 .post h1 {
   font-style: italic;
 }
-/* line 506, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 461, ../sass/_styles.scss */
 .post h1, .post h2, .post h3, .post h4, .post h5 {
   padding-top: 16.5px;
   margin-bottom: 16.5px;
   line-height: 1.25em;
 }
-/* line 513, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 468, ../sass/_styles.scss */
 .post figure {
   margin: 33px 0;
 }
-/* line 516, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 471, ../sass/_styles.scss */
 .post figure img {
   margin-bottom: 16.5px;
 }
-/* line 520, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 475, ../sass/_styles.scss */
 .post figure figcaption {
   font-size: 16px;
   font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
@@ -925,7 +862,7 @@ header.site-header nav ul li a:hover {
   color: #bbbbbb;
   text-align: center;
 }
-/* line 530, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 485, ../sass/_styles.scss */
 .post img {
   width: 100%;
   height: auto;
@@ -935,38 +872,38 @@ header.site-header nav ul li a:hover {
   -webkit-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 538, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 493, ../sass/_styles.scss */
 .post ul {
   display: block;
   margin-bottom: 33px;
   list-style: disc;
   list-style-type: disc;
 }
-/* line 543, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 498, ../sass/_styles.scss */
 .post ul lh h1, .post ul lh h2, .post ul lh h3, .post ul lh h4, .post ul lh h5 {
   border-bottom: 2px solid #d9d9d9;
 }
-/* line 546, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 501, ../sass/_styles.scss */
 .post ul li {
   list-style: disc;
   list-style-type: disc;
   margin-left: 66px;
   padding-left: 11px;
 }
-/* line 551, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 506, ../sass/_styles.scss */
 .post ul li:last-child {
   margin-bottom: 0;
 }
-/* line 557, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 512, ../sass/_styles.scss */
 .post ol {
   display: block;
   margin-bottom: 33px;
 }
-/* line 560, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 515, ../sass/_styles.scss */
 .post ol lh h1, .post ol lh h2, .post ol lh h3, .post ol lh h4, .post ol lh h5 {
   border-bottom: 2px solid #d9d9d9;
 }
-/* line 563, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 518, ../sass/_styles.scss */
 .post ol li {
   margin-left: 66px;
   padding-left: 11px;
@@ -974,11 +911,11 @@ header.site-header nav ul li a:hover {
   line-height: 33px;
   font-size: 22px;
 }
-/* line 569, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 524, ../sass/_styles.scss */
 .post ol li:last-child {
   margin-bottom: 0;
 }
-/* line 575, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 530, ../sass/_styles.scss */
 .post .share {
   text-align: center;
   display: block;
@@ -996,7 +933,7 @@ header.site-header nav ul li a:hover {
   -webkit-border-radius: 4px;
   border-radius: 4px;
 }
-/* line 589, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 544, ../sass/_styles.scss */
 .post .share:hover {
   color: #8ab9d1;
   border-color: rgba(138, 185, 209, 0.7);
@@ -1008,12 +945,12 @@ header.site-header nav ul li a:hover {
 }
 
 /* Footer Stuff */
-/* line 598, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 553, ../sass/_styles.scss */
 .push {
   height: 80px !important;
 }
 
-/* line 602, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 557, ../sass/_styles.scss */
 footer {
   width: 100%;
   background: #3b3b3b;
@@ -1022,7 +959,7 @@ footer {
   color: #f9f9f9;
   position: relative;
 }
-/* line 611, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 566, ../sass/_styles.scss */
 footer section {
   display: inline;
   float: left;
@@ -1034,20 +971,20 @@ footer section {
   display: block;
   margin: 0 auto;
 }
-/* line 11, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_mixins.scss */
+/* line 11, ../sass/_mixins.scss */
 footer section:before, footer section:after {
   content: "";
   display: table;
 }
-/* line 14, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_mixins.scss */
+/* line 14, ../sass/_mixins.scss */
 footer section:after {
   clear: both;
 }
-/* line 17, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_mixins.scss */
+/* line 17, ../sass/_mixins.scss */
 footer section {
   zoom: 1;
 }
-/* line 618, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 573, ../sass/_styles.scss */
 footer small {
   font-size: 12px;
   text-align: center;
@@ -1059,18 +996,18 @@ footer small {
   text-transform: uppercase;
   color: rgba(249, 249, 249, 0.1);
 }
-/* line 628, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 583, ../sass/_styles.scss */
 footer small a {
   color: rgba(249, 249, 249, 0.3);
 }
-/* line 633, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 588, ../sass/_styles.scss */
 footer .list-title {
   margin-bottom: 16.5px;
   border-bottom: 2px solid #8ab9d1;
   font-style: italic;
   font-size: 24px;
 }
-/* line 639, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 594, ../sass/_styles.scss */
 footer .prev-posts {
   display: inline;
   float: left;
@@ -1080,31 +1017,31 @@ footer .prev-posts {
   min-height: 250px;
   padding-left: 5vw;
 }
-/* line 644, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 599, ../sass/_styles.scss */
 footer .prev-posts p {
   padding-top: 66px;
 }
-/* line 647, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 602, ../sass/_styles.scss */
 footer .prev-posts li {
   display: block;
   width: 102.5%;
   margin: 0 -1.25%;
   margin-top: 16.5px;
 }
-/* line 11, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_mixins.scss */
+/* line 11, ../sass/_mixins.scss */
 footer .prev-posts li:before, footer .prev-posts li:after {
   content: "";
   display: table;
 }
-/* line 14, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_mixins.scss */
+/* line 14, ../sass/_mixins.scss */
 footer .prev-posts li:after {
   clear: both;
 }
-/* line 17, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_mixins.scss */
+/* line 17, ../sass/_mixins.scss */
 footer .prev-posts li {
   zoom: 1;
 }
-/* line 650, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 605, ../sass/_styles.scss */
 footer .prev-posts li .recent-title {
   display: inline;
   float: left;
@@ -1112,11 +1049,11 @@ footer .prev-posts li .recent-title {
   margin: 0 1.25%;
   font-style: italic;
 }
-/* line 654, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 609, ../sass/_styles.scss */
 footer .prev-posts li .recent-title a:hover {
   color: #f9f9f9;
 }
-/* line 659, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 614, ../sass/_styles.scss */
 footer .prev-posts li span.date {
   float: none;
   color: rgba(217, 217, 217, 0.6);
@@ -1130,7 +1067,7 @@ footer .prev-posts li span.date {
   text-transform: uppercase;
   text-align: right;
 }
-/* line 672, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 627, ../sass/_styles.scss */
 footer .social {
   position: absolute;
   top: 109px;
@@ -1141,20 +1078,20 @@ footer .social {
   right: 5vw;
   font-style: italic;
 }
-/* line 679, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 634, ../sass/_styles.scss */
 footer .social a:hover {
   color: #f9f9f9;
 }
-/* line 684, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 639, ../sass/_styles.scss */
 footer .social ul li {
   margin-bottom: 16.5px;
 }
-/* line 686, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 641, ../sass/_styles.scss */
 footer .social ul li:last-child {
   margin-bottom: 0;
 }
 
-/* line 694, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+/* line 649, ../sass/_styles.scss */
 .disqus {
   margin-top: 99px;
 }
@@ -1162,25 +1099,25 @@ footer .social ul li:last-child {
 /* Tablet
    ========================================================================== */
 @media only screen and (max-width: 800px) {
-  /* line 706, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 661, ../sass/_styles.scss */
   h1 {
     font-size: 48px;
   }
 
-  /* line 710, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 665, ../sass/_styles.scss */
   blockquote, blockquote p {
     font-size: 32px;
   }
 
-  /* line 714, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 669, ../sass/_styles.scss */
   footer {
     font-size: 16px;
   }
-  /* line 724, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 679, ../sass/_styles.scss */
   footer .prev-posts li span.date {
     font-size: 12px;
   }
-  /* line 730, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 685, ../sass/_styles.scss */
   footer .social {
     right: 10vw;
   }
@@ -1188,16 +1125,16 @@ footer .social ul li:last-child {
 /* Mobile
    ========================================================================== */
 @media only screen and (max-width: 500px) {
-  /* line 744, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 699, ../sass/_styles.scss */
   footer .social {
     display: none;
   }
-  /* line 748, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 703, ../sass/_styles.scss */
   footer aside {
     width: 90%;
     margin: 0 auto;
   }
-  /* line 753, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 708, ../sass/_styles.scss */
   footer .prev-posts {
     display: inline;
     float: left;
@@ -1208,34 +1145,34 @@ footer .social ul li:last-child {
     margin: 0 auto;
     display: block;
   }
-  /* line 759, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 714, ../sass/_styles.scss */
   footer .prev-posts li {
     margin-top: 16.5px;
   }
 }
 @media only screen and (max-width: 680px) {
   /* All Posts */
-  /* line 771, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 726, ../sass/_styles.scss */
   section.article img.loading {
     top: 10px !important;
     right: 6%;
     left: inherit;
   }
 
-  /* line 778, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 733, ../sass/_styles.scss */
   header.site-header {
     min-height: 59px;
     margin-top: 20px;
     padding-top: 0;
   }
 
-  /* line 784, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 739, ../sass/_styles.scss */
   header.site-header hgroup h1 {
     margin-bottom: 0;
     font-size: 22px;
   }
 
-  /* line 789, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 744, ../sass/_styles.scss */
   header.site-header hgroup {
     position: absolute;
     left: 7%;
@@ -1243,7 +1180,7 @@ footer .social ul li:last-child {
     padding-left: 0;
   }
 
-  /* line 796, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 751, ../sass/_styles.scss */
   header.site-header a.menu {
     position: absolute;
     right: 7%;
@@ -1253,18 +1190,18 @@ footer .social ul li:last-child {
     height: 16px;
     color: white;
   }
-  /* line 804, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 759, ../sass/_styles.scss */
   header.site-header a.menu .icons {
     font-size: 32px;
   }
 
-  /* line 809, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 764, ../sass/_styles.scss */
   header.site-header a.menu img {
     width: 24px;
     height: auto;
   }
 
-  /* line 814, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 769, ../sass/_styles.scss */
   header.site-header nav {
     display: none;
     float: none;
@@ -1272,20 +1209,20 @@ footer .social ul li:last-child {
     padding-right: 0;
   }
 
-  /* line 821, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 776, ../sass/_styles.scss */
   header.site-header nav:before {
     display: table;
     clear: both;
     content: '';
   }
 
-  /* line 827, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 782, ../sass/_styles.scss */
   header.site-header nav ul {
     padding: 20px 0 10px 0;
     margin-top: 15px;
   }
 
-  /* line 832, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 787, ../sass/_styles.scss */
   header.site-header nav ul li {
     display: block;
     margin-left: 0;
@@ -1293,7 +1230,7 @@ footer .social ul li:last-child {
     font-size: 16px;
   }
 
-  /* line 839, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 794, ../sass/_styles.scss */
   header.site-header nav ul li a {
     display: block;
     text-align: right;
@@ -1304,32 +1241,32 @@ footer .social ul li:last-child {
     width: 100%;
     color: #f9f9f9;
   }
-  /* line 848, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 803, ../sass/_styles.scss */
   header.site-header nav ul li a:active {
     background-color: #8ab9d1;
     color: white;
   }
-  /* line 852, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 807, ../sass/_styles.scss */
   header.site-header nav ul li a:hover {
     text-shadow: none;
   }
 
-  /* line 857, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 812, ../sass/_styles.scss */
   #bump .darken nav ul {
     padding: 0;
     margin-top: 40px;
     background: #3b3b3b;
   }
 
-  /* line 863, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 818, ../sass/_styles.scss */
   #bump .darken nav ul li a {
     color: #f9f9f9;
   }
-  /* line 865, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 820, ../sass/_styles.scss */
   #bump .darken nav ul li a:active {
     background-color: #8ab9d1;
   }
-  /* line 868, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 823, ../sass/_styles.scss */
   #bump .darken nav ul li a:hover {
     text-shadow: none;
     color: #f9f9f9;
@@ -1337,7 +1274,7 @@ footer .social ul li:last-child {
   }
 }
 @media only screen and (max-width: 480px) {
-  /* line 880, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 835, ../sass/_styles.scss */
   .post {
     display: inline;
     float: left;
@@ -1349,12 +1286,12 @@ footer .social ul li:last-child {
     float: none;
   }
 
-  /* line 888, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 843, ../sass/_styles.scss */
   footer {
     font-size: 16px;
   }
 
-  /* line 892, /Users/netscouade/Sites/Balzac-for-Jekyll/assets/sass/_styles.scss */
+  /* line 847, ../sass/_styles.scss */
   small {
     font-size: 12px;
   }

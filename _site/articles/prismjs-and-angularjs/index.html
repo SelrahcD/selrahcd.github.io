@@ -1,0 +1,164 @@
+
+
+<meta charset="utf-8">
+<title>Using PrismJs with AngularJs &#8211; </title>
+<meta name="description" content="If you need to display code snippets in an AngularJs application I got you covered.">
+<meta name="keywords" content="AngularJs, PrismJs, Dev, Javascript">
+
+
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Using PrismJs with AngularJs &#8211; ">
+<meta property="og:description" content="If you need to display code snippets in an AngularJs application I got you covered.">
+<meta property="og:url" content="/articles/prismjs-and-angularjs">
+<meta property="og:site_name" content="">
+
+
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title=" Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Type -->
+<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,700,700italic" rel='stylesheet' type='text/css' />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/assets/css/entypo.css" media="all">
+
+<!-- In order to use Calendas Plus, you must first purchase it. Then, create a font-face package using FontSquirrel.
+<link rel='stylesheet' href='/assets/cal.css' media='all' />
+-->
+
+
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/i.css">
+
+<!-- Fresh Squeezed jQuery -->
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+<meta http-equiv="cleartype" content="on">
+
+<!-- Load Modernizr -->
+<script src="/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="/favicon.ico">
+
+<div id="bump">
+  <body class="">
+    <header class="site-header darken">
+      <div class="wrap">
+        
+        <a href="#nav" class="menu"><span class='icons'>☰</span></a>
+        <nav role="navigation">
+          <ul>
+            <li>
+              <a href="/" title="">Home</a>
+            </li>
+            
+            
+
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+
+<section class="article pad-top">
+
+
+
+
+      <article class="wrap post">
+        <header class="post-header">
+          <hgroup>
+            <h1>Using PrismJs with AngularJs</h1>
+            <p class="date">Oct 18, 2013</p>
+            <p class="intro">If you need to display code snippets in an AngularJs application I got you covered.</p>
+          </hgroup>
+        </header>
+
+        <p>In a project I&#8217;m working on I need to display code snippets. I found <a href="http://prismjs.com/">PrismJs</a> library, which is lightweight and cover a lot of languages. The application is based on AngularJs, and code snippets are displayed after having been read from an API and PrimsJs is run before code is injected in the template, when used as the documentation said. The problem can be tackled down with the creation of a directive. Here is the code :</p>
+
+<div class="highlight"><pre><code class="javascript"><span class="lineno"> 1</span> <span class="nx">angular</span><span class="p">.</span><span class="nx">module</span><span class="p">(</span><span class="s1">&#39;Prism&#39;</span><span class="p">,</span> <span class="p">[]).</span>
+<span class="lineno"> 2</span>     <span class="nx">directive</span><span class="p">(</span><span class="s1">&#39;prism&#39;</span><span class="p">,</span> <span class="p">[</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+<span class="lineno"> 3</span>         <span class="k">return</span> <span class="p">{</span>
+<span class="lineno"> 4</span>             <span class="nx">restrict</span><span class="o">:</span> <span class="s1">&#39;A&#39;</span><span class="p">,</span>
+<span class="lineno"> 5</span>             <span class="nx">link</span><span class="o">:</span> <span class="kd">function</span> <span class="p">(</span><span class="nx">$scope</span><span class="p">,</span> <span class="nx">element</span><span class="p">,</span> <span class="nx">attrs</span><span class="p">)</span> <span class="p">{</span>
+<span class="lineno"> 6</span>                 <span class="nx">element</span><span class="p">.</span><span class="nx">ready</span><span class="p">(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
+<span class="lineno"> 7</span>                     <span class="nx">Prism</span><span class="p">.</span><span class="nx">highlightElement</span><span class="p">(</span><span class="nx">element</span><span class="p">[</span><span class="mi">0</span><span class="p">]);</span>
+<span class="lineno"> 8</span>                 <span class="p">});</span>
+<span class="lineno"> 9</span>             <span class="p">}</span>
+<span class="lineno">10</span>         <span class="p">}</span> 
+<span class="lineno">11</span>     <span class="p">}]</span>
+<span class="lineno">12</span> <span class="p">);</span>
+</code></pre></div>
+
+<p>For each HTML element marked with the prism attribute we wait that the inner DOM is fully loaded, using the ready function, and then trigger Prism highlighting on it.</p>
+
+<div class="highlight"><pre><code class="html"><span class="lineno">1</span> <span class="nt">&lt;pre&gt;</span>
+<span class="lineno">2</span>     <span class="nt">&lt;code</span> <span class="na">class=</span><span class="s">&quot;language-markup&quot;</span> <span class="na">prim</span><span class="nt">&gt;</span>
+<span class="lineno">3</span>     <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">&quot;#&quot;</span><span class="nt">&gt;</span>This a link<span class="nt">&lt;/a&gt;</span>
+<span class="lineno">4</span>     <span class="nt">&lt;/code&gt;</span>
+<span class="lineno">5</span> <span class="nt">&lt;/pre&gt;</span>
+</code></pre></div>
+
+
+
+      <a class="share" href="https://twitter.com/intent/tweet?text=&quot;Using PrismJs with AngularJs&quot;%20/articles/prismjs-and-angularjs%20via%20&#64;SelrahcD" data-dnt="true">Share</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+      
+
+      </article>
+    </section>
+</div>
+
+<div class="push"></div>
+  <footer>
+    <aside class="wrap">
+      <ol class="prev-posts">
+        <p class="list-title">Recent Posts</p>
+         <!-- for1 -->
+            <li>
+              <span class="recent-title"><a href="/articles/prismjs-and-angularjs" title="Using PrismJs with AngularJs">Using PrismJs with AngularJs </a></span>
+              <span class="date">Oct 18, 2013</span>
+            </li>
+        
+      </ol>
+
+      <div class="social">
+        <ul>
+          
+
+            
+            <li><a id="twit" href="http://twitter.com/SelrahcD" target="_blank"><span class="foot-link">@SelrahcD</span></a></li>
+            
+
+            
+            <li><a id="twit" href="https://github.com/selrahcd" target="_blank"><span class="foot-link">Github</span></a></li>
+            
+
+
+            
+        </ul>
+    </div>
+    </aside>
+    <small>&copy; 2013 SelrahcD. Powered by <a href="http://jekyllrb.com">Jekyll</a> using the <a href="http://jekyll.gtat.me/about">Balzac</a> theme.</small>
+  </footer>
+
+  <!-- If they're out, get some from the cellar -->
+  <script>window.jQuery || document.write('<script src="/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+  <script src="/assets/js/retina.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="/assets/js/scripts.js"></script>
+
+
+  </body>
+</html>
+

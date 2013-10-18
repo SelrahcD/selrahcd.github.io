@@ -50,9 +50,11 @@
   <body class="">
     <header class="site-header darken">
       <div class="wrap">
+        {% if site.title %}
         <hgroup>
           <h1><a href="/">{{ site.title }}</a></h1>
         </hgroup>
+        {% endif %}
         <a href="#nav" class="menu"><span class='icons'>☰</span></a>
         <nav role="navigation">
           <ul>
