@@ -1,7 +1,7 @@
 ---
 layout: "post-no-feature"
 title: Using PrismJs with AngularJs
-description: "If you need to display code snippets in an AngularJs application you migth want to read this !"
+description: "If you need to display code snippets in an AngularJs application you might want to read this !"
 category: articles
 tags: 
   - AngularJs
