@@ -9,6 +9,7 @@ tags:
   - Dev
   - Javascript
 published: true
+comments: true
 ---
 
 In a project I'm working on I need to display code snippets. I found [PrismJs](http://prismjs.com/) library, which is lightweight and cover a lot of languages. The application is based on AngularJs, and code snippets are displayed after having been read from an API and PrimsJs is run before code is injected in the template, when used as the documentation said, so highlighting doesn't work. The problem can be tackled down with the creation of a directive. Here is the code :
