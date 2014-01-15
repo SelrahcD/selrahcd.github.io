@@ -33,7 +33,7 @@ For each HTML element marked with the prism attribute we wait that the inner DOM
 
 {% highlight html linenos %}
 <pre>
-    <code class="language-markup" prim>
+    <code class="language-markup" prism>
     {% raw %}{{ snippet }}{% endraw %}
     </code>
 </pre>
