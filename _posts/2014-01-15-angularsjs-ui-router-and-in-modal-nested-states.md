@@ -14,7 +14,7 @@ comments: true
 ---
 
 In an AngularJs application I'm working on we need to display details about an object on a modal and to be able to switch to an edit mode in the same modal.
-An other requirement is that the model is automatically opened when the user enters the application with a url pointing to an edit or a view mode.
+An other requirement is that the modal is automatically opened when the user enters the application with a url pointing to an edit or a view mode.
 
 We are using the modal system made by [Ui Bootstrap](http://angular-ui.github.io/bootstrap/) and the [Ui Router](https://github.com/angular-ui/ui-router) both created by the AngularUi team.
 
@@ -44,7 +44,7 @@ We add the abstract state :
 {% highlight javascript linenos %}
 $stateProvider.state('modal', {
   abstract: true,
-  parent: list,
+  parent: 'list',
   url: '',
   onEnter: ['$modal', '$state', function($modal, $state) {
       console.log('Open modal');
@@ -134,7 +134,7 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
       })
       .state('modal', {
         abstract: true,
-        parent: list,
+        parent: 'list',
         url: '',
         onEnter: ['$modal', '$state', function($modal, $state) {
             console.log('Open modal');
