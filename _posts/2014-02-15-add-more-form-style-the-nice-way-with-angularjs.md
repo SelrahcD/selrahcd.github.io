@@ -39,6 +39,7 @@ Use ng-repeat for the item inputs. Here two more forms are created using the ng-
 <form name="listForm" ng-submit="saveList()" novalidate>
     <label for="list-title">List title</label>
     <input id="list-title" type="text" ng-model="list.title" required />
+    <b>List items</b>
     <ul ng-form="itemsForm">
         <li ng-repeat="item in list.items" ng-form="itemForm">
             <label for="itemText">List item</label>
@@ -61,7 +62,7 @@ angular.module('formDemo')
 
     $scope.list = {
         name: '',
-        items: []
+        items: [{}]
     };
 
     $scope.addElement = function() {
