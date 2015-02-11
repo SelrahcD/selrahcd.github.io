@@ -28,8 +28,7 @@ it would be a good test to try to smurf their tweets.
 
 ## Language analysis
 
-The analysis of sentences is something complicated and might be harder in french than in some other language. I didn't even a second imagine
-I could get along with this project without a good parser.
+The analysis of sentences is something complicated and might be harder in french than in some other language. I didn't even imagine for a second I could get along with this project without a good parser.
 
 I searched the web for a few hours and finally discovered the work done by [Alpage](https://www.rocq.inria.fr/alpage-wiki/tiki-index.php?page=Accueil), a research group working at INRIA, the french computer science search institute.
 They have created a set of tools that can analyse a sentence and returns [lexems](http://en.wikipedia.org/wiki/Lexeme).
