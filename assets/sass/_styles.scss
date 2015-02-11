@@ -471,6 +471,27 @@ header.site-header nav {
         img {
             margin-bottom: $lh/2;
         }
+
+        table {
+            width:100%;
+            margin-bottom: $lh/2;
+
+            tr {
+
+                border-bottom:1px solid $grey-medium;
+
+                td, th {
+                    font-size: $fs5;
+                    padding: ($lh * 1/2);
+                    text-align: center;
+                }
+
+                th {
+                    font-weight: bold;
+                }
+            }
+
+        }
         
         figcaption {
             font-size: $fs5;
@@ -849,7 +870,3 @@ small {
 }
 
 }
-
-
-
-
