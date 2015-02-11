@@ -32,7 +32,7 @@ The analysis of sentences is something complicated and might be harder in french
 I could get along with this project without a good parser.
 
 I searched the web for a few hours and finally discovered the work done by [Alpage](https://www.rocq.inria.fr/alpage-wiki/tiki-index.php?page=Accueil), a research group working at INRIA, the french computer science search institute.
-They have created a set of tools that can analise a sentence and returns [lexems](http://en.wikipedia.org/wiki/Lexeme).
+They have created a set of tools that can analyse a sentence and returns [lexems](http://en.wikipedia.org/wiki/Lexeme).
 
 You can [try it by yourself](http://alpage.inria.fr/frmgwiki/frmg_main/frmg_server) if you can speak a few words of french.
 
