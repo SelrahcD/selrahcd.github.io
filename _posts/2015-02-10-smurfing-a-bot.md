@@ -83,8 +83,8 @@ Doing the transformation of one word is not enough. I also had to transform prev
             <td>J'arrive</td>
         </tr>
         <tr>
-            <td>De l'eau</td>
             <td>Du schtroumpf</td>
+            <td>De l'eau</td>
         </tr>
     </table>
 <figcaption>Example of influence of gender and number on the translation</figcaption>
