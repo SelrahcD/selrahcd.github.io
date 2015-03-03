@@ -10,6 +10,7 @@ tags:
   - Dev
   - Bot
 published: true
+comments: true
 ---
 
 ## The idea
