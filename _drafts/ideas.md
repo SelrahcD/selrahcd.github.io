@@ -62,3 +62,4 @@ Timy :
     https://vaughnvernon.co/?p=838
 
 
+* Things I've learned : avoid magic, do not use a lib < 1 or update update update
