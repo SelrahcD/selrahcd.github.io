@@ -18,7 +18,7 @@ comments: true
 
 As Konstantin points out writing features using an [ubiquitous language](http://martinfowler.com/bliki/UbiquitousLanguage.html) shared by developers and stackholders reduce the cost of translation and thus the number of errors in the application.
 
-In the t-shirt a day project one of the feature is that an admin can manage a t-shirt catalog. This feature is described using Gherkin language and scenario are tested using Behat.
+In the [t-shirt a day project](/articles/-tshirt-a-day-serie/) one of the feature is that an admin can manage a t-shirt catalog. This feature is described using Gherkin language and scenario are tested using Behat.
 
 {% highlight gherkin linenos %}
 Feature:
