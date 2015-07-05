@@ -1,7 +1,7 @@
 ---
 layout: "post-no-feature"
 title: TShirt a day
-description: "Some code, some learning and some tshirts"
+description: "Code, learning and t-shirts"
 category: articles
 tags:
   - Dev
@@ -17,7 +17,7 @@ I've been reading a lot of books and blog posts, watching a lot of conferences a
 
 Some day I received another t-shirt from a [punk rock band](https://ninaschool.bandcamp.com/) - I have so many t-shirts... - and had an idea : "What if I made a service where people could choose what t-shirt I should wear on a given day ?"
 
-This is stupid but can be a decent project to play with [Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design) concepts, to build a [Restfull API](https://fr.wikipedia.org/wiki/Representational_State_Transfer), to work on some front-end again, to (maybe) try to use [docker](https://www.docker.com/) as a container.
+This is stupid but can be a decent project to play with [Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design) concepts, to build a true [Restfull API](https://fr.wikipedia.org/wiki/Representational_State_Transfer) (ouch...), to work on some front-end again, to (maybe) try to use [docker](https://www.docker.com/) as a container, to do some [Behaviour Driven Design](https://en.wikipedia.org/wiki/Behavior-driven_development), to practice my unit test writing skills...
 
 If this project goes to production some day it could lead to a funny experimentation too because I have some t-shirts I probably should be embarassed to wear in some contexts.
 
@@ -26,3 +26,8 @@ If this project goes to production some day it could lead to a funny experimenta
 This is project is open sourced, you can [find it on Github](https://github.com/SelrahcD/tshirtaday) and I'll do my best to write some blog posts with the thing I've learned and struggle with.
 
 Here are all the blog posts in the Tshirt a day serie :
+
+* [BDD and domain code](articles/2015-07-05-writing-user-stories/)
+
+Hey ! I'm on [Twitter](https://twitter.com/selrahcd) too, if you want to chat about the bot or something else. Feel free to comment below as well.
+
