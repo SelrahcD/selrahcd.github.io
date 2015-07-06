@@ -29,5 +29,5 @@ Here are all the blog posts in the Tshirt a day serie :
 
 * [BDD and domain code](/articles/bdd-and-domain-code/)
 
-Hey ! I'm on [Twitter](https://twitter.com/selrahcd) too, if you want to chat this serie or something else. Feel free to comment below as well.
+Hey ! I'm on [Twitter](https://twitter.com/selrahcd) too, if you want to chat about this serie or something else. Feel free to comment below as well.
 
