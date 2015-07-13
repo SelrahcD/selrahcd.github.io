@@ -917,6 +917,10 @@ footer {
       text-shadow: none;
       color: #f9f9f9;
       background-color: #8AB9D1; } }
+.filestructure {
+  background-color: #444;
+  color: #FFF; }
+
 @media only screen and (max-width: 480px) {
   .post {
     display: inline;

@@ -28,6 +28,7 @@ This is project is open sourced, you can [find it on Github](https://github.com/
 Here are all the blog posts in the Tshirt a day serie :
 
 * [BDD and domain code](/articles/bdd-and-domain-code/)
+* [Project macro structure](/articles/project-macro-structure/)
 
 Hey ! I'm on [Twitter](https://twitter.com/selrahcd) too, if you want to chat about this serie or something else. Feel free to comment below as well.
 

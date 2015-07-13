@@ -1,0 +1,177 @@
+.
+├── README.md
+├── behat.yml
+├── bin
+│   ├── behat -> ../vendor/behat/behat/bin/behat
+│   ├── phpunit -> ../vendor/phpunit/phpunit/phpunit
+│   └── uuid -> ../vendor/ramsey/uuid/bin/uuid
+├── composer.json
+├── composer.lock
+├── phpunit.xml
+├── src
+│   └── tshirtaday
+│       ├── catalog
+│       │   ├── features
+│       │   │   ├── contexts
+│       │   │   │   └── ManageCatalogContext.php
+│       │   │   └── managecatalog.feature
+│       │   ├── src
+│       │   │   ├── Domain
+│       │   │   │   ├── Admin
+│       │   │   │   │   └── Admin.php
+│       │   │   │   ├── Catalog
+│       │   │   │   │   └── Catalog.php
+│       │   │   │   └── TShirt
+│       │   │   │       ├── TShirt.php
+│       │   │   │       ├── TShirtId.php
+│       │   │   │       ├── TShirtWasAddedToCatalog.php
+│       │   │   │       └── TShirtWasRemovedFromCatalog.php
+│       │   │   └── Infrastructure
+│       │   │       └── Repositories
+│       │   │           └── InMemory
+│       │   │               └── InMemoryCatalog.php
+│       │   └── tests
+│       │       └── Domain
+│       │           ├── Admin
+│       │           │   └── AdminTest.php
+│       │           └── TShirt
+│       │               ├── TShirtIdTest.php
+│       │               └── TShirtTest.php
+│       └── votes
+│           ├── features
+│           │   ├── contexts
+│           │   │   └── VoterCanVoteForATshirtForADay.php
+│           │   └── votercanvoteforatshirtforaday.feature
+│           ├── src
+│           │   ├── Domain
+│           │   │   ├── Clock
+│           │   │   │   ├── Clock.php
+│           │   │   │   └── TestClock.php
+│           │   │   ├── TShirt
+│           │   │   │   ├── TShirt.php
+│           │   │   │   ├── TShirtId.php
+│           │   │   │   └── TShirtRepository.php
+│           │   │   ├── Vote
+│           │   │   │   ├── ValidationHandler.php
+│           │   │   │   ├── Vote.php
+│           │   │   │   ├── VoteRepository.php
+│           │   │   │   ├── VoteSpecification.php
+│           │   │   │   └── VoteValidator.php
+│           │   │   ├── Voter
+│           │   │   │   ├── Voter.php
+│           │   │   │   └── Voterid.php
+│           │   │   └── VotingSession
+│           │   │       ├── VotingSession.php
+│           │   │       └── VotingSessionRepository.php
+│           │   └── Infrastructure
+│           │       └── Repositories
+│           │           └── InMemory
+│           │               ├── InMemoryTShirtRepository.php
+│           │               ├── InMemoryVoteRepository.php
+│           │               └── InMemoryVotingSessionRepository.php
+│           └── tests
+│               └── Domain
+│                   ├── TShirt
+│                   │   ├── TShirtIdTest.php
+│                   │   └── TShirtTest.php
+│                   ├── Vote
+│                   │   ├── VoteTest.php
+│                   │   └── VoteValidatorTest.php
+│                   ├── Voter
+│                   │   ├── VoterIdTest.php
+│                   │   └── VoterTest.php
+│                   └── VotingSession
+│                       └── VotingSessionTest.php
+└── vendor
+
+38 directories, 46 files
+➜  tshirtaday git:(develop)
+
+
+####################
+
+
+.
+├── README.md
+├── behat.yml
+├── bin
+│   ├── behat -> ../vendor/behat/behat/bin/behat
+│   ├── phpunit -> ../vendor/phpunit/phpunit/phpunit
+│   └── uuid -> ../vendor/ramsey/uuid/bin/uuid
+├── catalog
+│   ├── contexts
+│   │   └── ManageCatalogContext.php
+│   ├── src
+│   │   ├── Domain
+│   │   │   ├── Admin
+│   │   │   │   └── Admin.php
+│   │   │   ├── Catalog
+│   │   │   │   └── Catalog.php
+│   │   │   └── TShirt
+│   │   │       ├── TShirt.php
+│   │   │       ├── TShirtId.php
+│   │   │       ├── TShirtWasAddedToCatalog.php
+│   │   │       └── TShirtWasRemovedFromCatalog.php
+│   │   └── Infrastructure
+│   │       └── Repositories
+│   │           └── InMemory
+│   │               └── InMemoryCatalog.php
+│   └── tests
+│       └── Domain
+│           ├── Admin
+│           │   └── AdminTest.php
+│           └── TShirt
+│               ├── TShirtIdTest.php
+│               └── TShirtTest.php
+├── composer.json
+├── composer.lock
+├── features
+│   ├── managecatalog.feature
+│   └── votercanvoteforatshirtforaday.feature
+├── phpunit.xml
+├── vendor
+└── votes
+    ├── contexts
+    │   └── VoterCanVoteForATshirtForADay.php
+    ├── src
+    │   ├── Domain
+    │   │   ├── Clock
+    │   │   │   ├── Clock.php
+    │   │   │   └── TestClock.php
+    │   │   ├── TShirt
+    │   │   │   ├── TShirt.php
+    │   │   │   ├── TShirtId.php
+    │   │   │   └── TShirtRepository.php
+    │   │   ├── Vote
+    │   │   │   ├── ValidationHandler.php
+    │   │   │   ├── Vote.php
+    │   │   │   ├── VoteRepository.php
+    │   │   │   ├── VoteSpecification.php
+    │   │   │   └── VoteValidator.php
+    │   │   ├── Voter
+    │   │   │   ├── Voter.php
+    │   │   │   └── Voterid.php
+    │   │   └── VotingSession
+    │   │       ├── VotingSession.php
+    │   │       └── VotingSessionRepository.php
+    │   └── Infrastructure
+    │       └── Repositories
+    │           └── InMemory
+    │               ├── InMemoryTShirtRepository.php
+    │               ├── InMemoryVoteRepository.php
+    │               └── InMemoryVotingSessionRepository.php
+    └── tests
+        └── Domain
+            ├── TShirt
+            │   ├── TShirtIdTest.php
+            │   └── TShirtTest.php
+            ├── Vote
+            │   ├── VoteTest.php
+            │   └── VoteValidatorTest.php
+            ├── Voter
+            │   ├── VoterIdTest.php
+            │   └── VoterTest.php
+            └── VotingSession
+                └── VotingSessionTest.php
+
+35 directories, 46 files
