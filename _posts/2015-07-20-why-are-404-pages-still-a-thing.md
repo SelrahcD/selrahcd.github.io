@@ -11,7 +11,7 @@ published: true
 comments: true
 ---
 
-I this article every time you'll see "a 404 page" please read "The dumb 404 page with an apologize and a link to the home page". This doesn't concern 404 in other contexts, please keep - or start - using them in you APIs, for instance.
+In this article every time you'll see "a 404 page" please read "The dumb 404 page with an apologize and a link to the home page". This doesn't concern 404 in other contexts, please keep - or start - using them in you APIs, for instance.
 
 ## Context
 
