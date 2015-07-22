@@ -29,7 +29,7 @@ Here are all the blog posts in the Tshirt a day serie :
 
 * [BDD and domain code](/articles/bdd-and-domain-code/)
 * [Project macro structure](/articles/project-macro-structure/)
-* [Refactoring VoteValidator with tests](/articles/refactoring-votevaliator-with-tests/)
+* [Refactoring VoteValidator with tests](/articles/refactoring-votevalidator-with-tests/)
 
 Hey ! I'm on [Twitter](https://twitter.com/selrahcd) too, if you want to chat about this serie or something else. Feel free to comment below as well.
 
