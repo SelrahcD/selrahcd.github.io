@@ -1,7 +1,7 @@
 ---
 layout: "post-no-feature"
-title: Test for behavior not for implementation
-description: "Avoid coupling between tests and implementation by testing for behavior"
+title: Test for behaviour not for implementation
+description: "Avoid coupling between tests and implementation by testing for behaviour"
 category: articles
 tags: 
   - Php
