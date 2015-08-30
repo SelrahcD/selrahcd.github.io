@@ -1,0 +1,9 @@
+creating commands
+
+validation issue, Udi Dahan on CQRS, lien conf
+ => simplification of the VoteValidator. Thanks units test. lien commit
+
+ 
+
+ => Hard time testing the handlr because of final keyword, but didn't want to change for interface + impl because no valid name for implementation because only one dealing with business rules
+
