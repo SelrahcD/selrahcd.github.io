@@ -14,7 +14,7 @@ image:
 ---
 
 
-Yesterday at work I ran into a pretty nasty bug and looking through the code I spotted something which even if it wasn't the primary cause of all the mess made it really worst.
+Yesterday at work I ran into a pretty nasty bug and while looking through the code I spotted something which even if it wasn't the primary cause of all the mess made it really worst.
 
 The code was going like this :
 
