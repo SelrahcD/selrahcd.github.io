@@ -49,7 +49,7 @@ class AClassThatDoesSomethingWithThingsAndStuff {
 
 As you can see it seems that we always need a Stuff in order to make an association with a Thing. Furthemore we hope to use that same Stuff for all the things.
 
-The main issue with this piece of code is the Stuff we use is going through two layers, created in a sub-layer (in `aMethodThatAssociateOneThingWithAStuff`), going up one layer (in `aMethodThatAssociatesSeveralThingsWithAStuff) before returning to the sub-layer again.
+The main issue with this piece of code is the Stuff we use is going through two layers: the Stiff is created in a sub-layer (in `aMethodThatAssociateOneThingWithAStuff`), going up one layer (in `aMethodThatAssociatesSeveralThingsWithAStuff) before returning to the sub-layer again.
 
 An other issue is that we are not really in control of the Stuff used.
 
@@ -85,7 +85,7 @@ And it's simpler...
 
 
 We can even make this way more fun if `aMethodThatAssociateOneThingWithAStuff` can throw exceptions.
-The code will probably end up with a try-catch structure inside of the foreach loop. (Our code end up like this at least...)
+The code will probably ended up with a try-catch structure inside of the foreach loop. (Our code end up like this at least...)
 
 See below :
 
@@ -131,7 +131,7 @@ Imagine the method `somehowGetAStuff` has some side effects: writing a new Stuff
 When an exception is thrown the execution enters the catch part of the try-catch and doesn't overwrite the value of `$aStuff`.
 As long as the method will throw an exception without letting a chance to `$aStuff to be initialized `somehowGetAStuff` will be called, with all its side effects...
 
-Breaking layers in OOP can have some really bad consequences, and as you can see it makes your code harder to read and will probably create some bugs.
+Breaking layers in OOP can have some really bad consequences and , as you can see, it makes the code harder to read and will probably create some bugs.
 
 This example is based on methods but classes are layers too and thus should not become entangled neither.
 
@@ -140,7 +140,7 @@ As a rule of thumb you should probably be suspicious at a piece of code when you
 * A test for existence for something passed to your method.
 * A memory allocation without desallocation.
 * A layer in charge of retrieving something it needs. This is breaking the [inversion of dependency principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle).
-* A method called openSomething without a closeSomething, or the inverse in the same layer.
+* A method called openSomething without a closeSomething, or the opposite, in the same layer.
 
 because this code is probably running through several layers.
 I guess we can make this list way longer.
