@@ -139,7 +139,7 @@ As a rule of thumb you should probably be suspicious at a piece of code when you
 
 * A test for existence for something passed to your method.
 * A memory allocation without desallocation.
-* A layer in charge of retrieving something it needs. This breaking the [inversion of dependency principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle).
+* A layer in charge of retrieving something it needs. This is breaking the [inversion of dependency principle](https://en.wikipedia.org/wiki/Dependency_inversion_principle).
 * A method called openSomething without a closeSomething, or the inverse in the same layer.
 
 because this code is probably running through several layers.
