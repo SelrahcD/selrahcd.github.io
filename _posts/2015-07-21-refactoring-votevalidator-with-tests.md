@@ -14,7 +14,7 @@ comments: true
 
 A few days ago I decided that the [t-shirt a day application](/articles/-tshirt-a-day-serie/) doesn't need the complexity of a vote validator with a validation handler and only a method stating if a vote is valid or not returning a boolean and then starting [refactoring](https://github.com/SelrahcD/tshirtaday/compare/db07728ab8ca5142ce1ed73d7ffbeb3fcdc9f8ca...b9c1b02fea17059baa69f9c6b85c280684fe82d6).
 
-The process of recfactoring was not painfull thanks to the test suite already their but I must admit that I have spoted some flaws in my VoteValidator tests.
+The process of recfactoring was not painfull thanks to the test suite already there but I must admit that I have spoted some flaws in my VoteValidator tests.
 
 ## A cleaner VoteValidator
 
