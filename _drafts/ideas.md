@@ -63,3 +63,6 @@ Timy :
 
 
 * Things I've learned : avoid magic, do not use a lib < 1 or update update update
+
+
+Do not create interface if you have only one possible way to combine your classes, or to force dev to make the implementation you want => Interfaces are meant to be at the interface of the logic block therefore we should not force how impl is done
