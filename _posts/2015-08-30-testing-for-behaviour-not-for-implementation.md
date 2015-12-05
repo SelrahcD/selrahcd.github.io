@@ -54,7 +54,7 @@ Further thinking lead me to ask myself what I wanted to achieve with the system 
 
 I made some [refactoring on my tests](https://github.com/SelrahcD/SearchCache/commit/a7c20ce3a519592a8a814e8dd9d2d8eda70e738d) in order to have tests reflecting what the system should do instead of how it does its job. Furthemore I decided that I could get rid of my mocks created with Mockery and use a [stub](https://github.com/SelrahcD/SearchCache/blob/master/tests/Stubs/SearchResultsStores/InMemorySearchResultStore.php) instead. The test now looks like this and doesn't leak any details about the implementation :
 
-```php`
+```php
 <?php
 public function testIfAPreviousVersionOfSharedResultIsStoredItsReplacedWhenANewOneIsStored()
     {
