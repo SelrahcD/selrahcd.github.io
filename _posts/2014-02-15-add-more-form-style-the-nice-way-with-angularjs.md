@@ -26,16 +26,17 @@ We will use the "ng-form" version of the directive because form tag can't contai
 
 First create a basic form for the list title. The submit button is disabled when the form is not valid. The form tag is one of the way to create a form directive.
 
-{% highlight html linenos %}
+```html
 <form name="listForm" ng-submit="saveList()" novalidate>
     <label for="list-title">List title</label>
     <input id="list-title" type="text" ng-model="list.title" required />
     <input type="submit" value="Save list" ng-disabled="listForm.$invalid">
 </form>
-{% endhighlight %}
+```
 
-Use ng-repeat for the item inputs. Here two more forms are created using the ng-form attribute : one for the list of element (itemsForm) and one for each element (itemForm). We are now able to do validation for one item and for the list. User can't add an item to the list if one of the existing elements is invlaid because the "Add an element" button is disabled when itemsForm is not valid. 
-{% highlight html linenos %}
+Use ng-repeat for the item inputs. Here two more forms are created using the ng-form attribute : one for the list of element (itemsForm) and one for each element (itemForm). We are now able to do validation for one item and for the list. User can't add an item to the list if one of the existing elements is invlaid because the "Add an element" button is disabled when itemsForm is not valid.
+
+```html
 <form name="listForm" ng-submit="saveList()" novalidate>
     <label for="list-title">List title</label>
     <input id="list-title" type="text" ng-model="list.title" required />
@@ -52,11 +53,11 @@ Use ng-repeat for the item inputs. Here two more forms are created using the ng-
     <button ng-click="addElement()" ng-disabled="itemsForm.$invalid">Add an element</button>
     <input type="submit" value="Save list" ng-disabled="listForm.$invalid">
 </form>
-{% endhighlight %}
+```
 
 The code of the associated controller is easy to understand : when the addElement function is called a new empty object is pushed in the array of items and a new row will be displayed in the form.
 
-{% highlight javascript linenos %}
+```javascript
 angular.module('formDemo')
   .controller('FormCtrl', function ($scope) {
 
@@ -73,6 +74,6 @@ angular.module('formDemo')
         alert('This is a dummy button but let\'s say the list has been saved !');
     };    
   });
-{% endhighlight %}
+```
 
 If you have a question or want to discuss about this solution you can find me on [Twitter](https://twitter.com/Selrahcd) or comment this post.

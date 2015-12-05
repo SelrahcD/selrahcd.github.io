@@ -65,4 +65,8 @@ Timy :
 * Things I've learned : avoid magic, do not use a lib < 1 or update update update
 
 
-Do not create interface if you have only one possible way to combine your classes, or to force dev to make the implementation you want => Interfaces are meant to be at the interface of the logic block therefore we should not force how impl is done
+Do not create interface if you have only one possible way to combine your classes, or to force dev to make the implementation you want => Interfaces are meant to be at the interface of the logic block therefore we should not force how impl is done. If the impl you think of is that good dev adding new functionnality should not have to recreate the same X classes you did with your first impl. The more you force an impl the less flexibility you have. (ex : JWT and symfony security)
+
+
+Test inversion :
+Je ne peux pas voir la discussion XXX à laquelle je ne participe pas => Je participe à toutes les discussions que je peux voir parce que ce qu'on veut vérifier c'est avant tout la sécurité des infos.

@@ -14,7 +14,7 @@ comments: true
 
 In a project I'm working on I need to display code snippets. I found [PrismJs](http://prismjs.com/) library, which is lightweight and cover a lot of languages. The application is based on AngularJs, and code snippets are displayed after having been read from an API and PrimsJs is run before code is injected in the template, when used as the documentation said, so highlighting doesn't work. The problem can be tackled down with the creation of a directive. Here is the code :
 
-{% highlight javascript linenos %}
+```javascript
 angular.module('Prism', []).
     directive('prism', [function() {
         return {
@@ -27,16 +27,16 @@ angular.module('Prism', []).
         } 
     }]
 );
-{% endhighlight %}
+```
 
 For each HTML element marked with the prism attribute we wait that the inner DOM is fully loaded, using the ready function, and then trigger Prism highlighting on it.
 
-{% highlight html linenos %}
+```html
 <pre>
     <code class="language-markup" prism>
     {% raw %}{{ snippet }}{% endraw %}
     </code>
 </pre>
-{% endhighlight %}
+```
 
 Here is the [Gist](https://gist.github.com/SelrahcD/7042692) !

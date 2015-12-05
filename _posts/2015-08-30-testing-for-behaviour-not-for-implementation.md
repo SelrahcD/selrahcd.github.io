@@ -17,9 +17,8 @@ While working on [SearchCache](https://github.com/SelrahcD/SearchCache) I made a
 
 Here it is :
 
-{% highlight PHP linenos %}
+``` php
 <?php
-
 public function testStoringSharedResultWithSameParametersUsesTheSameKey()
     {
         $searchCache = new SearchCache($this->searchResultStore, $this->keyGenerator);
@@ -43,7 +42,7 @@ public function testStoringSharedResultWithSameParametersUsesTheSameKey()
         $this->assertEquals($key1, $key2);
     }
 ?>
-{% endhighlight %}
+```
 
 The method `shouldStoreSharedResult` allows me to get the key used when the result is stored so I can later compare them for equality.
 
@@ -55,7 +54,7 @@ Further thinking lead me to ask myself what I wanted to achieve with the system 
 
 I made some [refactoring on my tests](https://github.com/SelrahcD/SearchCache/commit/a7c20ce3a519592a8a814e8dd9d2d8eda70e738d) in order to have tests reflecting what the system should do instead of how it does its job. Furthemore I decided that I could get rid of my mocks created with Mockery and use a [stub](https://github.com/SelrahcD/SearchCache/blob/master/tests/Stubs/SearchResultsStores/InMemorySearchResultStore.php) instead. The test now looks like this and doesn't leak any details about the implementation :
 
-{% highlight PHP linenos %}
+```php`
 <?php
 public function testIfAPreviousVersionOfSharedResultIsStoredItsReplacedWhenANewOneIsStored()
     {
@@ -76,7 +75,7 @@ public function testIfAPreviousVersionOfSharedResultIsStoredItsReplacedWhenANewO
         $this->assertEquals($result2, $this->searchCache->getResult($key));
     }
 ?>
-{% endhighlight %}
+```
 
 I have the impression that using a mocking library pushed me on the coupling path and I'll try to keep an eye on this in order to avoid making that same mistake again since I have already been proven guilty of this several times. Using mocks adds up a lot to the risk of creating false positive tests - [see this article](http://www.thoughtworks.com/insights/blog/mockists-are-dead-long-live-classicists) - and having a test suite that give you a false impression of confidence is probably worst than not having tests...
 

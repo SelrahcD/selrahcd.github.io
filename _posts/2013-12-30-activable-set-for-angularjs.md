@@ -15,7 +15,9 @@ We sometimes have to play with CSS classes to give users a feedback when an elem
 This tool works using two directives. The first one allows us to define the set of elements we want to work on and the second on to add or remove the CSS class.
 
 ## How to use it
-{% highlight html linenos %}
+
+
+```html
 <table>
   <thead>
     <tr>
@@ -24,10 +26,12 @@ This tool works using two directives. The first one allows us to define the set 
     </tr>
   </thead>
   <tbody activable-set>
-    <tr ng-repeat="user in users" activable><td ng-bind="user.id"></td><td ng-bind="user.name"></td></tr>
+    <tr ng-repeat="user in users" activable>
+    	<td ng-bind="user.id"></td><td ng-bind="user.name"></td>
+    </tr>
   </tbody>
 </table>
-{% endhighlight %}
+```
 
 Add the activable-set attribute to an element. All children of this element marked with the activable element will belong to the same set.
 If an inactive element is clicked the directive will add the active class to the element and remove the class from all other elements of the set. If an active element is clicked the active class is removed. 

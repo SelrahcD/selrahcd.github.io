@@ -20,7 +20,7 @@ As Konstantin points out writing features using an [ubiquitous language](http://
 
 In the [t-shirt a day project](/articles/-tshirt-a-day-serie/) one of the feature is that an admin can manage a t-shirt catalog. This feature is described using Gherkin language and scenario are tested using Behat.
 
-{% highlight gherkin linenos %}
+```gherkin
 Feature:
     As an admin
     I want to manage the TShirt Catalog
@@ -35,13 +35,13 @@ Scenario: Removing a TShirt to the catalog
     Given a TShirt with id 12345 is added to the catalog
     When an admin removes the TShirt with id 12345 from the catalog
     Then the catalog should contain 0 TShirt
-{% endhighlight %}
+```
 
 As you can see scenarios are written using terms coming from the business and say nothing about the implementation, developers and stackholders are sharing the same language which remove one layer of translation.
 
 The second layer of translation, from a language understood by developers to code, can be reduced using the DDD advice to use the ubiquitous language in code too. As you'll see below the code expresses the feature requirements in a way that should allow non developers to read it with a little help.
 
-{% highlight PHP linenos %}
+```php
 <?php 
 class ManageCatalogContext implements Context, SnippetAcceptingContext
 {
@@ -90,7 +90,7 @@ class ManageCatalogContext implements Context, SnippetAcceptingContext
     }
 }
 ?>
-{% endhighlight %}
+```
 
 As you can see the cost of translation has been reduced a lot using this approach.
 
