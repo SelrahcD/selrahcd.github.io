@@ -63,3 +63,15 @@ Timy :
 
 
 * Things I've learned : avoid magic, do not use a lib < 1 or update update update
+
+
+Look alikes :
+- DRY
+- Database
+- Model vs command
+- Validation
+
+Remove if :
+outside
+DI
+null object

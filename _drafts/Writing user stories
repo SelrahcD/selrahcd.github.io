@@ -1,0 +1,29 @@
+Writing user stories
+
+- negative scenarios
+- acceptance criteria vs scenario
+
+http://lizkeogh.com/2011/06/20/acceptance-criteria-vs-scenarios/
+http://www.agileforall.com/2012/01/new-story-splitting-resource/
+http://www.agileforall.com/2009/10/patterns-for-splitting-user-stories/
+http://stackoverflow.com/questions/7704172/acceptance-criteria-and-other-things-for-a-bdd-story
+
+http://dannorth.net/introducing-bdd/
+http://stackoverflow.com/questions/767439/are-bdd-tests-acceptance-tests
+http://gojko.net/2011/01/28/duplication-between-bdd-and-unit-tests/
+http://everzet.com/post/99045129766/introducing-modelling-by-example
+https://skillsmatter.com/skillscasts/5899-modelling-by-example
+
+http://gojko.net/2011/01/12/the-false-dichotomy-of-tests/
+
+http://dannorth.net/2010/08/30/introducing-deliberate-discovery/
+
+http://www.artima.com/weblogs/viewpost.jsp?thread=126923 A Set of Unit Testing Rules
+
+http://stackoverflow.com/a/1940166/1434813
+BDD (and TDD) are design activities. The tests are meant to drive the design of the code, not guarantee that it is completely bug-free. There should be independent testers for that. So we need a decent degree of coverage, to ensure that our code works as expected and handles exceptions in a clean fashion. But TDD doesn't demand that we write unit tests for every conceivable edge case.
+
+https://github.com/mockito/mockito/wiki/How-to-write-good-tests
+
+
+http://codurance.com/2015/05/12/does-tdd-lead-to-good-design/
