@@ -76,3 +76,6 @@ Dont create a shitty solution in order to alleviate your shitty solution:
 modale avec du contenu : 
 * partage de l'url ? => un bouton share
 * clic sur un lien => navigation in modal ? => congrats you've created a new browser
+* 
+
+Plusieurs niveaux de "sécurité" : hermod retry queues => only the last one is usefull
