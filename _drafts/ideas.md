@@ -81,4 +81,4 @@ modale avec du contenu :
 Plusieurs niveaux de "sécurité" : hermod retry queues => only the last one is usefull
 
 
-I'm to stupid to use your clever shit
+I'm too stupid to use your clever shit
