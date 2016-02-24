@@ -81,3 +81,18 @@ Do not create interface if you have only one possible way to combine your classe
 
 Test inversion :
 Je ne peux pas voir la discussion XXX à laquelle je ne participe pas => Je participe à toutes les discussions que je peux voir parce que ce qu'on veut vérifier c'est avant tout la sécurité des infos.
+<<<<<<< HEAD
+=======
+
+
+Dont create a shitty solution in order to alleviate your shitty solution:
+modale avec du contenu : 
+* partage de l'url ? => un bouton share
+* clic sur un lien => navigation in modal ? => congrats you've created a new browser
+* 
+
+Plusieurs niveaux de "sécurité" : hermod retry queues => only the last one is usefull
+
+
+I'm too stupid to use your clever shit
+>>>>>>> 73628af6082f678e6a4a0247d090387a3e03c67d
