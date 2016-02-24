@@ -19,7 +19,7 @@ Yesterday at work I ran into a pretty nasty bug and while looking through the co
 The code was going like this :
 
 
-{% highlight PHP linenos %}
+```php
 <?php
 class AClassThatDoesSomethingWithThingsAndStuff {
 
@@ -45,7 +45,7 @@ class AClassThatDoesSomethingWithThingsAndStuff {
     }
 }
 ?>
-{% endhighlight %}
+```
 
 As you can see it seems that we always need a Stuff in order to make an association with a Thing. Furthemore we hope to use that same Stuff for all the things.
 
@@ -55,7 +55,7 @@ An other issue is that we are not really in control of the Stuff used.
 
 I think the code would have been better if it had been written this way :
 
-{% highlight PHP linenos %}
+```php
 <?php
 
 class AClassThatDoesSomethingWithThingsAndStuff {
@@ -77,7 +77,7 @@ class AClassThatDoesSomethingWithThingsAndStuff {
     }
 }
 ?>
-{% endhighlight %}
+```
 
 This code doesn't break the layers between the methods. The Stuff is get on the top level and passed one level down when needed. We are also able to choose what Stuff we want to pass to the sub-level method.
 
@@ -90,7 +90,7 @@ The code will probably ended up with a try-catch structure inside of the foreach
 See below :
 
 
-{% highlight PHP linenos %}
+```php
 <?php
 class AClassThatDoesSomethingWithThingsAndStuff {
 
@@ -124,7 +124,7 @@ class AClassThatDoesSomethingWithThingsAndStuff {
 }
 
 ?>
-{% endhighlight %}
+```
 
 Imagine the method `somehowGetAStuff` has some side effects: writing a new Stuff in the database for instance.
 

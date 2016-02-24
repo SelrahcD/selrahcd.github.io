@@ -21,26 +21,26 @@ We finally came up with a solution, which even if not ideal allows us to see if 
 
 First thing we create a variable for each version of PHP in the `before_script` section of `travis.yml`:
 
-{% highlight yaml linenos %}
+```yaml
 before_install:
     - if [[ ${TRAVIS_PHP_VERSION:0:3} == "5.3" ]]; then export PHP53=false; else export PHP53=true; fi
     - if [[ ${TRAVIS_PHP_VERSION:0:3} == "5.6" ]]; then export PHP56=false; else export PHP56=true; fi
-{% endhighlight %}
+```
 
 Notice that we are assigning `false` to the associated variable when the PHP version matches.
 
 Now, for each command that Travis should execute we are able to specify if it should be run for the current build version :
 
-{% highlight yaml linenos %}
+```yaml
 install:
     - $PHP53 || ( cd $TRAVIS_BUILD_DIR/applications/app1 && composer install )
-{% endhighlight %}
+```
 
 This must be read as "Cd to app1 directory and run composer install for PHP 5.3".
 
 In the end our `travis.tml` looks like this:
 
-{% highlight yaml linenos %}
+```yaml
 language: php
 
 php:
@@ -58,14 +58,14 @@ install:
 script:
   - $PHP53 || ( cd $TRAVIS_BUILD_DIR/applications/app1 && ./bin/phpunit )
   - $PHP56 || ( cd $TRAVIS_BUILD_DIR/applications/app2 && ./vendor/bin/phpspec run && ./vendor/bin/behat )
-{% endhighlight %}
+```
 
 If you want a command to be run for several PHP versions you can specify them as follow:
 
-{% highlight yaml linenos %}
+```yaml
 install:
     - ( $PHP53 && $PHP56 ) || ( cd $TRAVIS_BUILD_DIR/applications/app1 && composer install )
-{% endhighlight %}
+```
  which should be read "Cd to app1 directory and run composer install for PHP 5.3 and PHP 5.6".
 
 Handy, right ?

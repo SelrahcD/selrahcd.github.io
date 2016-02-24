@@ -28,7 +28,7 @@ and I wanted the code to express this requirements clearly.
 
 The isValid has been refactored to use 3 private methods each one dealing with one rule :
 
-{% highlight PHP linenos %}
+```php
 <?php
 class VoteValidator
 {
@@ -40,7 +40,7 @@ class VoteValidator
     }
 }
 ?>
-{% endhighlight %}
+```
 
 This is the point I started to think that I probably should be able to switch lines and still have the test going green and tried to do so. Well, tests were failing.
 
@@ -50,7 +50,7 @@ I'll take a simpler example that the one above with only two conditions to descr
 
 Let's define a simple class :
 
-{% highlight PHP linenos %}
+```php
 <?php
 class Tuple
 {
@@ -65,7 +65,7 @@ class Tuple
     }
 }
 ?>
-{% endhighlight %}
+```
 
 A tuple is valid if :
 
@@ -75,7 +75,7 @@ A tuple is valid if :
 
 The tuple validator would have been something like this :
 
-{% highlight PHP linenos %}
+```php
 <?php
 class TupleValidator
 {
@@ -103,11 +103,11 @@ class TupleValidator
     }
 }
 ?>
-{% endhighlight %}
+```
 
 In the TupleValidatorTest the method asserting that isValid returns false if A doesn't exist would have been :
 
-{% highlight PHP linenos %}
+```php
 <?php
 class TupleValidatorTest
 {
@@ -136,13 +136,13 @@ class TupleValidatorTest
     }
 }
 ?>
-{% endhighlight %}
+```
 
 The test will pass.
 
 Now if I invert the two test in the isValid method :
 
-{% highlight PHP linenos %}
+```php
 <?php
 // TupleValidator
 public function isValid(Tuple $tuple)
@@ -151,7 +151,7 @@ public function isValid(Tuple $tuple)
         && $this->elementAExists($tuple->a);
 }
 ?>
-{% endhighlight %}
+```
 
 the test is failing because the ElementRepository mock wasn't expecting a call for "exists" method with B as parameter.
 The implementation and the test are tightly coupled, which is bad.
@@ -160,7 +160,7 @@ The mistake here is that I don't set up the system properly. If I want to test t
 
 Let me introduce two more methods in the test class in order to make tests easier to read :
 
-{% highlight PHP linenos %}
+```php
 <?php
 // TupleValidatorTest
 public function elementExists($element)
@@ -173,11 +173,11 @@ public function elementDoesntExist($element)
     $this->elementRepository->shouldReceive('exists')->with($element)->andReturn(false);
 }
 ?>
-{% endhighlight %}
+```
 
 We can now write the tests with the correct set up :
 
-{% highlight PHP linenos %}
+```php
 <?php
 // TupleValidatorTest
 /**
@@ -198,7 +198,7 @@ public function should_return_false_if_A_doesnt_exist()
     $this->assertFalse($validator->isValid($tuple));
 }
 ?>
-{% endhighlight %}
+```
 
 This test will pass whatever the order of the assertions in isValid is.
 
@@ -206,7 +206,7 @@ I think starting with the test for the positive result helps because you have to
 
 Here are all the correct tests for the TupleValidator :
 
-{% highlight PHP linenos %}
+```php
 <?php
 // TupleValidatorTest
 /**
@@ -263,7 +263,7 @@ public function should_return_false_if_B_doesnt_exist()
     $this->assertFalse($validator->isValid($tuple));
 }
 ?>
-{% endhighlight %}
+```
 
 When writing a test be sur to set up the system in a state that allows you to test what you think you are testing.
 

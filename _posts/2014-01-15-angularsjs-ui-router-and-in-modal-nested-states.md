@@ -29,7 +29,8 @@ Here is a plunker of the result :
 <iframe style="width:100%; height:300px;" src="http://embed.plnkr.co/5Mmu4w/preview"></iframe>
 
 In our application config we define a state for the list of items:
-{% highlight javascript linenos %}
+
+```javascript
 $stateProvider
   .state('list', {
     url: '/',
@@ -38,10 +39,11 @@ $stateProvider
       $scope.ponies = ponies;
     }
   });
-{% endhighlight %}
+```
 
 We add the abstract state :
-{% highlight javascript linenos %}
+
+```javascript
 $stateProvider.state('modal', {
   abstract: true,
   parent: 'list',
@@ -57,12 +59,13 @@ $stateProvider.state('modal', {
     });
   }]
 });
-{% endhighlight %}
+```
 
 The abstract state is a child of the list state and therefore can be activated at the same time of the list. When this state is activated a modal is opened and it contains a basic template with an other ui-view name modal. We also use $modal promise system to go back to the list state when the modal is closed.
 
 We finally add the edit and view states :
-{% highlight javascript linenos %}
+
+```javascript
 $stateProvider.state('view', {
   url: ':id',
   parent: 'modal',
@@ -101,13 +104,14 @@ $stateProvider.state('view', {
     }
   }
 });
-{% endhighlight %}
+```
 
 They both inherit from the modal state and set the content of the modal view.
 We use resolve to load the needed item accordingly to the url parameter, this allows the use to reach the application with an url such as /2/edit and to see both the items list and the modal open on edition mode. Cool huh ?
 
 Here is the full sample of code which allows you to have two states in the same modal :
-{% highlight javascript linenos %}
+
+```javascript
 angular.module('app', ['ui.router', 'ui.bootstrap'])
   .config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
     
@@ -186,4 +190,4 @@ angular.module('app', ['ui.router', 'ui.bootstrap'])
         }
       });
     }]);
-{% endhighlight %}
+```
