@@ -1,4 +1,4 @@
-title:            
+title:
 tagline:          A beautiful theme.
 description:      Describe your website.
 #Comment out url when working locally to resolve base urls correctly
@@ -8,12 +8,12 @@ url: http://blog.chorip.am
 owner:
   name:           SelrahcD
   avatar:         avatar.png
-  bio:            
-  email:          
-  twitter:        SelrahcD        
-  github:         selrahcd       
-  instagram:           
-  dribbble:       
+  bio:
+  email:
+  twitter:        SelrahcD
+  github:         selrahcd
+  instagram:
+  dribbble:
   disqus:         choripam
 
 # Links to include in top navigation
@@ -23,23 +23,16 @@ links:
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    France/Paris
 future:      true
-markdown: redcarpet
-redcarpet:
-  extensions: ["smart", "tables", "no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data"]
+markdown: kramdown
 
 kramdown:
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
-  use_coderay: false
+  input: GFM
+  syntax_highlighter: rouge
 
-  coderay:
-    coderay_line_numbers: 
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
