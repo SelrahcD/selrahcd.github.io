@@ -24,7 +24,7 @@ Someone then came by and told me it was the tool, a cool feature provided by the
 
 I was sure that I was dumb when I couldn't understand what you're abstraction was for. For me all the interesting thing your code was doing was concentrated in one class. That one class I found after going through several classes doing I don't really know what. That one class which was wrapping a class from a library.
 
-I probably missed something but I have to say that [I started to be pissed off](https://twitter.com/Selrahcd/status/701794483726323712) again - I think there is some kind of pattern here. I tried to understand, because, after all, you're clever. Why would you do something that complicated when just using the class from the library, or your wrapper, would have done the job ? Maybe you were protecting us from the coupling to that library and making it uses simpler. I have to say that I was surprised when I saw a massive chain of getters going all the way down to get the library object you were wrapping and pass it to the some other object.
+I probably missed something but I have to say that [I started to be pissed off](https://twitter.com/Selrahcd/status/701794483726323712) again - I think there is some kind of pattern here. I tried to understand, because, after all, you're clever. Why would you do something that complicated when just using the class from the library, or your wrapper, would have done the job ? Maybe you were protecting us from the coupling to that library and making it uses simpler. I have to confess that I was surprised when I saw a massive chain of getters going all the way down to get the library object you were wrapping and pass it to the some other object.
 
 This are some of the times I noticed I was dumb. Hard truth...
 
