@@ -43,13 +43,13 @@ Abstractions are good when you know what you're abstracting. Apparently you only
 
 Not once but several times.
 
-I made complexe stuff too. Yes, they were complexe, not complicated. Complexe because complexity was needed. Complexe not complicated, because complicated implies that it's hard to understand and follow and I was perfectly able to understand it. I wrote it after all. Then I moved on, worked on something else, and had to came by to it later probably because of something to fix. Apparently complexe code tend to be buggy. Moreover complexe code became complicated. I was now unable to understand easily what was going on with this code and all choices I made a few days before.
+I made complicated stuff too. They looked hard to understand at first glance but once you managed to wrap your head around the problem being solved everyone could see how my solution was elegant and was able to get it. I was at least. I wrote it after all. Then I moved on, worked on something else, and had to came by to it later probably because of something to fix. Seems like complicated code tend to be buggy. Worst, apparently time had increased code complexity. I was now unable to understand easily what was going on with this code and all choices I made a few days before.
 
 I have seen people reluctant to use some of my code. In my opinion it was not that hard to understand but you probably needed someone to guide you the first time you used the library because it was magic in some kind of way. We had a solution, we probably should have written documentation. Or simpler code : [something the junior of your team can grasp by herself](http://www.infoq.com/presentations/8-lines-code-refactoring).
 
 I was pissed at myself on those occasions.
 
-I guess some time you will be pissed at yourself too. I hope so. It means you code is used, and that's cool.
+I guess some time you will be pissed at yourself too. I hope so. It means your code is used, and that's cool.
 
 ## Please stop
 
@@ -57,7 +57,7 @@ Please stop writing complicated stuff. It's harder to read, to understand, to te
 
 Please stop doing something everyone knows about in some other clever way. It's cool that you know everything about your tools, but what will be cooler is that you know when to use or use not a feature. [I don't want to be suprised while reading code](https://en.wikipedia.org/wiki/Principle_of_least_astonishment).
 
-I want to read code as I read books, simple ones. I want to read book as I read Harry Potter, translated in french. As I said, I'm dumb, and I'm lazy...
+I want to read code as I read books, simple ones. I want to read book as I read Harry Potter, translated. In french. As I said, I'm dumb, and I'm lazy...
 
 Take a break, think two minutes about the piece of code you're about to craft : can you make it simple ? Can the dumbest person you know understand it ? Will she be surprised ? 
 
