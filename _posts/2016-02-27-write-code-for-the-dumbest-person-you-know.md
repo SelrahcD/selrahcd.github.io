@@ -64,3 +64,6 @@ Take a break, think two minutes about the piece of code you're about to craft : 
 As you've been an eye opener to me I hope this words will be an eye opener to you too.
 
 Go write some code. Simple one.
+
+
+Whether you clever or not we can discuss on [Twitter](https://twitter.com/selrahcd). You can comment below as well.
