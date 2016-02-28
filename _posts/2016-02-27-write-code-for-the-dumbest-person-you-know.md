@@ -1,7 +1,7 @@
 ---
 layout: post-no-feature
 title: Write code for the dumbest person you know
-description: "An open letter "
+description: "I'm dumb and I'm unable to understand your clever code."
 category: articles
 tags:
   - Dev
