@@ -96,3 +96,6 @@ Plusieurs niveaux de "sécurité" : hermod retry queues => only the last one is 
 
 I'm too stupid to use your clever shit
 >>>>>>> 73628af6082f678e6a4a0247d090387a3e03c67d
+
+
+trim email address on log in form
