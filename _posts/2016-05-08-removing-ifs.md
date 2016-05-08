@@ -6,7 +6,7 @@ category: articles
 tags:
   - Dev
   - OOP
-published: false
+published: true
 comments: true
 
 ---
@@ -15,9 +15,9 @@ I'm not a big fan of if statements.
 
 They make source code harder to reason about, force us to write more test cases and increase [cyclomatic complexity](https://en.wikipedia.org/wiki/Cyclomatic_complexity)...
 
-We even debated with some colleagues on the way to lunch if it would be possible to make an application without any one of them. We finally agreed that it would be very difficult if the application had to enforce some business rules.
+We even debated with some colleagues on the way to lunch if it would be possible to make an application without any one of them. We finally agreed that it would be impossible.
 
-In some cases it's totally doable to remove if statements. Here are a few options.
+However in some cases it's totally doable to remove if statements. Here are a few options.
 
 ## Keeping them outside of the application
 
@@ -25,7 +25,7 @@ The application I work on has to be integrated with some external services. Some
 
 I had to work on the controller action dealing with those callback calls. **The controller action**. Yep. We have only one action for several externals services. Therefore the major part of the code is dealing with trying to recognize who is calling, base on the shape of the message. Coming with a lot of ifs.
 
-A simpler solution would have been to create one action for each external service, pushing the if statements outside of our code directly into the services' configuration.
+A simpler solution would have been to create one action for each external service, pushing the if statements outside of our code directly into the external services' configuration.
 
 ## Depency inversion principle
 
@@ -87,7 +87,7 @@ class SimpleWritter {
     public function write($text)
     {
 		echo $text;
-	}
+    }
 }
 
 class TestWritter {
@@ -114,10 +114,10 @@ class TypeMachine {
 }
 ```
 
-We have add a `Writter`interface and two implementations, `SimpleWritter`and `TestWritter`. We can now choose which one we want to use regarding of the context.
-As you see the code of the `TypeMachine` class is simpler too and all classes are easily testable.
+We have added a `Writter`interface and two implementations, `SimpleWritter`and `TestWritter`. We can now choose which one we want to use regarding of the context.
+As you can see the code of the `TypeMachine` class is simpler too and all classes are easily testable.
 
-As an aside we should be carefull when we start using flag parameters in method prototype because it usually indicates a some sort of missing concept. [A cool article](https://blog.8thlight.com/dariusz-pasciak/2015/05/28/alternatives-to-boolean-parameters.html) was written on 8th Light blog on how to remove this sort of parameters.
+As an aside we should be carefull when we start using flag parameters in method prototype because it usually indicates some sort of missing concept. [A cool article](https://blog.8thlight.com/dariusz-pasciak/2015/05/28/alternatives-to-boolean-parameters.html) was written on 8th Light blog on how to remove this sort of parameters.
 
 
 ## Null object pattern
@@ -154,7 +154,7 @@ class TypeMachine {
 
 ```
 
-Every time we want to log something we have to check wether the logger was set or not.
+Every time we want to log something we have to check whether the logger was set or not.
 
 Using the Null object pattern, which consists in creating an implementation of an interface with no behaviour, we can remove this checks.
 
@@ -166,7 +166,9 @@ interface Logger {
 }
 
 class NullLogger {
-	public function log($logMessage){}
+	public function log($logMessage){
+	// do nothing
+	}
 }
 
 class TypeMachine {
