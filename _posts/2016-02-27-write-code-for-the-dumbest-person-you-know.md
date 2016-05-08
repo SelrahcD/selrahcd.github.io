@@ -6,7 +6,7 @@ category: articles
 tags:
   - Dev
   - craftmanship
-published: true
+published: false
 comments: true
 
 ---
@@ -15,7 +15,7 @@ comments: true
 
 You're lucky. You're lucky because you're clever and I'm not.
 
-I noted that I was dumb when I was unable to understand how some data was injected into an object during its instantiation. 
+I noted that I was dumb when I was unable to understand how some data was injected into an object during its instantiation.
 I know what is a depency injection manager but that time it was not like the others. It took me one hour to figure out where that configuration parameter was coming from. I had to go through 8 code files and 3 configuration files and I had to make several full text searches in order to jump from file to file because following the code was misleading. This exercise was really hard to me because I'm barely able to remember my own phone number so I had to write down to paper the path of your clever way to do depency injection because I couldn't keep it in memory.
 
 I have to say that I started to be pissed off - allright, this is not uncommon - because you code was telling me that I was stupid, and no one likes beeing told that she is stupid.
@@ -59,7 +59,7 @@ Please stop doing something everyone knows about in some other clever way. It's 
 
 I want to read code as I read books, simple ones. I want to read book as I read Harry Potter, translated. In french. As I said, I'm dumb, and I'm lazy...
 
-Take a break, think two minutes about the piece of code you're about to craft : can you make it simple ? Can the dumbest person you know understand it ? Will she be surprised ? 
+Take a break, think two minutes about the piece of code you're about to craft : can you make it simple ? Can the dumbest person you know understand it ? Will she be surprised ?
 
 As you've been an eye opener to me I hope this words will be an eye opener to you too.
 

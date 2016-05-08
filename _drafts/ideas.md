@@ -94,4 +94,23 @@ Plusieurs niveaux de "sécurité" : hermod retry queues => only the last one is 
 I'm too stupid to use your clever shit
 
 
+
 Missed context dependency : message as an integration point for all our services
+
+
+trim email address on log in form
+
+
+
+Confusion between delivery mechanism and message :
+Email vs content
+webhook vs notification
+
+
+Lazy :
++ ou - des deux solutions
+ toLazy(store) in interface -> newLazy ou self
+ou not in interface et instance of + method toLazy seulement dans memory imple
+
+
+If statements
