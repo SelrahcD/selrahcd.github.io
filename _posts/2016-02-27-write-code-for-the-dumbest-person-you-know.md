@@ -68,4 +68,4 @@ As you've been an eye opener to me I hope this words will be an eye opener to yo
 Go write some code. Simple one.
 
 
-Whether you clever or not we can discuss on [Twitter](https://twitter.com/selrahcd). You can comment below as well.
+Whether your clever or not we can discuss on [Twitter](https://twitter.com/selrahcd). You can comment below as well.
