@@ -116,3 +116,5 @@ ou not in interface et instance of + method toLazy seulement dans memory imple
 
 
 If statements
+
+testing async event queue
