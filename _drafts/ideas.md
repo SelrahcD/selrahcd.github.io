@@ -107,6 +107,7 @@ trim email address on log in form
 Confusion between delivery mechanism and message :
 Email vs content
 webhook vs notification
+Event vs action : event handler named as event
 
 
 Lazy :
