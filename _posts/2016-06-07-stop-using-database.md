@@ -11,15 +11,15 @@ comments: true
 
 ---
 
-First thing first, database are useful in a lot of cases and we need them. We need them when we have to store information provided by users or information which change on a regular basis.
+First thing first, database are useful in a lot of cases and we need them. We need them when we have to store information provided by users or information changing on a regular basis.
 
-This is not the case of all data an application needs in order to run - currencies, countries, languages, application settings, to name a few. This types of information don't change that often and adding a database for them doesn't provide much value. Maybe a developer won't be needed in order to change or add a value but I'm inclined to think that more than often no tools is provided to business people and a developer will have to run a query on the database nevertheless. 
+This is not the case of all data an application needs in order to run - currencies, countries, languages, application settings, to name a few. This types of information don't change that often and adding a database for them doesn't provide much value. Maybe a developer won't be needed in order to change or add a value but I'm inclined to think that more than often no tool is provided to business people to change it by themselves, and a developer will have to run a query on the database nevertheless. 
 
-Adding a database in this cases is a cost with no value added. More code is needed, additional complexity is created, a database have to be maintained and the resulting system is probably slower - not in an important order of magnitude of course - than a system without a database.
+Adding a database in those cases is a cost with no value added. More code is needed, additional complexity is created, a database has to be maintained and the resulting system is probably slower - not in an important order of magnitude of course - than the same system without a database.
 
 These additional costs are not the main reasons I dislike the use of database for such information.
 
-In the long run special cases will probably be introduced in the application - do this for this country and that for that one for instance. Facing this special cases basically two solutions exist. Either you add the differentiating piece of data in the database, which might mean changing table schema and so on, in order to do something clean or you start cheating a use the reference - id, ISO standard reference - of the concept with a special case thus coupling code and database content altogether.
+In the long run special cases will probably be introduced in the application - do this for this country and that for that other one for instance. In order to face these special cases basically two solutions exist. Either you add the differentiating piece of data in the database, which might mean changing table schema and so on or you start cheating and use the reference - id, ISO standard reference - of the concept with a special case thus coupling code and database content altogether.
 
 From what I've seen we, developers, will choose solution 2, maybe because we are lazy, in the middle of a rush or don't mesure the consequences of it.
 
