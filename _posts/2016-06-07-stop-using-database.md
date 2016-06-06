@@ -27,7 +27,9 @@ Once the coupling is created it will eventually grow to the point where almost a
 
 If the data doesn't change much why not store it in the code after all ? Having only one golden source that is easily changeable - adding a property to a value object is way easier than changing a table schema - instead of two or more sources that will have to be maintained in cohesion.
 
-When your dealing with some data that doesn't look like likely to change often try not to use a database. Start with a simple representation based on value objects if you are into POO. If in the long run that information appears to change a lot then use a database. Start with the simpler solution that works.
+When you're dealing with some data that doesn't look likely to change often try not to use a database. Start with a simple representation based on value objects if you are into POO. If in the long run that information appears to change a lot then use a database. Start with the simpler solution that works.
+
+_Once again, thanks a lot to [Remi](http://twitter.com/remisan) for his feedbacks._
 
 
 If you are a DBA, hate me, and want to tell me that I'm an awful person I'm on [Twitter](https://twitter.com/selrahcd). Feel free to comment below as well.
