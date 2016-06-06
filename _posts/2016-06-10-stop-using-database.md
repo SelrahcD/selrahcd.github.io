@@ -30,4 +30,4 @@ If the data doesn't change much why not store it in the code after all ? Having 
 When your dealing with some data that doesn't look like likely to change often try not to use a database. Start with a simple representation based on value objects if you are onto POO. If in the long run that information appears to change a lot then use a database. Start with the simpler solution that works.
 
 
-If your a DBA, hate me, and want to tell me that I'm an awful person I'm on [Twitter](https://twitter.com/selrahcd). Feel free to comment below as well.
+If you are a DBA, hate me, and want to tell me that I'm an awful person I'm on [Twitter](https://twitter.com/selrahcd). Feel free to comment below as well.
