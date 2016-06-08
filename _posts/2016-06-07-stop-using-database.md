@@ -6,7 +6,7 @@ category: articles
 tags:
   - Dev
   - craftsmanship
-published: false
+published: true
 comments: true
 
 ---
