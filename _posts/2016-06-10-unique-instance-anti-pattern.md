@@ -31,7 +31,7 @@ So, here goes the masterpiece.
 <?php
 class AClassWithADecentName {
 
-    static private $alreadyInstantiated = true;
+    static private $alreadyInstantiated = false;
 	
     public function __construct()
     {
