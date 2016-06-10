@@ -21,7 +21,7 @@ As one of my co-worker said last week :
 
 > It's funny to see that some people were 10 years ago where we are now. I'm wondering what they are doing now and where we will be in 10 years.
 
-(F*** this quote is gigantic. Ok, I'm conflating message and form here...)
+(F*** this quote is gigantic. Ok, I'm mixing message and form here...)
 
 I do too.
 
