@@ -47,7 +47,7 @@ class AClassWithADecentName {
 
 If you try to instantiate it twice your whole application will blow up because of the exception.
 
-This is worst than a singleton : you can't even use the object twice at several places. An instance singleton can at least be used several times. This is the **unique instance anti-pattern**.
+This is worst than a singleton : you can't instanciate an object twice and you can't use the first created instance in another scope than the one where it was created, unlike the singleton. This is the **unique instance anti-pattern**.
 
 It turns out I got the chance to speak with the man who created that beast. Remember my co-worker from last week ?
 
