@@ -53,11 +53,14 @@ It turns out I got the chance to speak with the man who created that beast. Reme
 
 We spoke about the context at the time he wrote that piece of code. The team was composed of unexperienced/stubborn developers and he was trying to enforce a design and he wanted to prevent the misuse of that class. To be fair a more appropriate name for the class could be `AClassWithADecentNameDoingThingWeAreNotVeryProudOfInAWayWeDislike`.
 
-The thing is that class is untestable the way it is now and the unique reason is to prevent developpers to do something. I strongly believe that explanations and code reviews are way more powerful in the long term and so I don't want to harm code design as a protection against other developers. They have access to the codebase and they can mess with it anyway.
+The thing is that class is untestable the way it is now and the unique reason is to prevent developers to do something. I strongly believe that explanations and code reviews are way more powerful to prevent bad code from being created in the long term and so I don't want to harm code design as a protection against other developers. They have access to the codebase and they can mess with it anyway. 
+
+Protection code passes a message - do not use me - that should have been transmitted in some other form - teaching -.
+
+You know : Give a man a fish... Teach a man to fish...
 
 In order to prevent some other beasts from being created let's make a deal : We will not damage our code to prevent other developers to do something and we will explain why something should be done or not instead.
 
 We will not conflate the message and the form anymore.
-
 
 If you love bad images, bad jokes and anti-pattern I'm on[Twitter](https://twitter.com/selrahcd). Feel free to comment below as well.
