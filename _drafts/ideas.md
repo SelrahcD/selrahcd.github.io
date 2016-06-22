@@ -119,3 +119,9 @@ ou not in interface et instance of + method toLazy seulement dans memory imple
 If statements
 
 testing async event queue
+
+
+We are here to think :
+CRUD from DB to View 
+Namespace for events -> why should we have two events with same name in different BC ?
+
