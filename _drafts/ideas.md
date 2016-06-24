@@ -124,4 +124,15 @@ testing async event queue
 We are here to think :
 CRUD from DB to View 
 Namespace for events -> why should we have two events with same name in different BC ?
+=> unecessary features, coupling
+
+
+TDD and premature default parameters
+-> game of life defaut parameter in construct missed half of the test cases
+
+
+Getters at the boundaries
+
+
+
 
