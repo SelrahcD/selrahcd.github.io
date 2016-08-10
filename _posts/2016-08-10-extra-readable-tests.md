@@ -86,7 +86,9 @@ The change here is to use a *Spy* instead of a *Mock*. You can read on the diffe
 
 ## Builder
 
-Let's now imagine that the class `Member` is central to our application and is used in a lot of tests, all of them having to call the constructor in order to get `Member`s. A new requirement is made : A member should have a birth date. We must add an extra parameter to all calls to `Member` constructor. Trust me, when you will face this situation you probably be very disappointed.
+Let's now imagine that the class `Member` is central to our application and is used in a lot of tests, all of them having to call the constructor in order to get `Member`s. 
+
+A new requirement is made : A member should have a birth date. We must add an extra parameter to all calls to `Member` constructor. Trust me, the day you'll face this situation you probably be very disappointed.
 
 A solution is to introduce a [builder](https://en.wikipedia.org/wiki/Builder_pattern) which will encapsulate the call to `Member` constructor. We are now able to do the change in only one place.
 
@@ -177,7 +179,9 @@ final class MemberBuilder {
 
 ```
 
-Notice that I'm using [Faker](https://github.com/fzaninotto/Faker), a library helping to create fake data for a lot of types. Faker helps creating default values for the member, each time different, ensuring that we are not making any assumptions based on a fixed value. Furthermore providing a default value allows to specify only the pieces of information required for the test. For instance if we are in need of a `Member` without any particularity we can call `(new MemberBuilder)->build()` and we will get a valid `Member`.
+As you can see the builder constructor provides a default value for each property of `Member`. This is really convenient because it allows to provide only the properties that matters for the test we are writing. If I need a `Member` and only his firstname matters I can call `(new MemberBuilder)->withFirstName('John')->build()`.
+
+Moreover I'm using [Faker](https://github.com/fzaninotto/Faker), a library helping to create fake data for a lot of types. Using random data ensures tests are not making any assumptions based on a fixed value somewhere.
 
 ## Builder functions
 
