@@ -15,12 +15,13 @@ I'm very interested in living documentation because it provides some great value
 A few weeks ago I experimented and extracted documentation from code and tests. Tests were used to describe an object properties, its business rules. Some test methods name were feeling a bit to technical to me and were not making sense to business people.
 
 In the case of a DatePeriod object two tests names were odd :
+
 * it is initializable
 * it throws an exception if end date precedes start date
 
 The first one is created automatically by PhpSpec in order to ensure the DatePeriod class is created. This test case should be removed as soon as another test case is created as it doesn't provide value anymore.
 
-The second one is more interesting. It doesn't describe what the DatePeriod does but how it does it. This is a form of coupling between the test case and the implementation. [As seen before](articles/testing-for-behaviour-not-for-implementation) coupling between the two of them is not a good idea because it makes harder for coming up with another implementation. In that case throwing an exception is probably the best implementation though.
+The second one is more interesting. It doesn't describe what the DatePeriod does but how it does it. This is a form of coupling between the test case and the implementation. [As seen before](testing-for-behaviour-not-for-implementation) coupling between the two of them is not a good idea because it makes harder for coming up with another implementation. In that case throwing an exception is probably the best implementation though.
 
 What could be a better name then? We're looking for something that speaks to business people. "It doesn't allow end date to precede start date" does the job here.
 
