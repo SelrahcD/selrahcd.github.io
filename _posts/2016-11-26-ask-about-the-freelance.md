@@ -20,7 +20,7 @@ This two things in mind it stroked me that freelances make for great personas wh
 
 Freelances have two really interesting properties:
 
-* The can work for several companies/groups at the same time.
+* They can work for several companies/groups at the same time.
 * It's easy to think they'll leave.
 
 This two properties open for really insightful discussions:
