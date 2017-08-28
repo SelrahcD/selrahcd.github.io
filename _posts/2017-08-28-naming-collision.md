@@ -11,7 +11,7 @@ comments: true
 ---
 
 ## The context
-I don't know if I already shared that I work at [Evaneos](http://www.evaneos.fr), a travel market place. Our job is to interconnect future travelers with travel agencies all over the world so they can benefit a trip tailor made by someone on site with a good knowledge of the destination. The agency's first job is to respond to a potential traveler request with a travel proposition after discussing the traveler's wishes.
+I don't know if I already shared that I work at [Evaneos](https://www.evaneos.fr), a travel market place. Our job is to interconnect future travelers with travel agencies all over the world so they can benefit a trip tailor made by someone on site with a good knowledge of the destination. The agency's first job is to respond to a potential traveler request with a travel proposition after discussing the traveler's wishes.
 
 Lately, I've been working on a rewrite of our routing system which for a given request selects the appropriate agency.
 
@@ -20,7 +20,7 @@ From itinerary: The traveler selects an example itinerary she is interested in. 
 From agency: The traveler decides to talk directly with an agency. I bet you guessed which agency will receive the request.
 From scratch: The traveler indicates which destination she would like to travel to and we match her with the agency which can provide what we believe to be the best travel proposition according to the few information we have on what she wants to do.
 
-The collision
+## The collision
 During the rewrite we decided to provide some key insights to the people dealing with the settings of the from scratch algorithm.
 
 One of this insights is the sales rate for the requests made from scratch.
