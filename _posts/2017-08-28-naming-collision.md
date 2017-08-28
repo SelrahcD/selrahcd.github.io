@@ -11,7 +11,7 @@ comments: true
 ---
 
 ## The context
-I don't know if I already shared that I work at [Evaneos](www.evaneos.fr), a travel market place. Our job is to interconnect future travelers with travel agencies all over the world so they can benefit a trip tailor made by someone on site with a good knowledge of the destination. The agency's first job is to respond to a potential traveler request with a travel proposition after discussing the traveler's wishes.
+I don't know if I already shared that I work at [Evaneos](http://www.evaneos.fr), a travel market place. Our job is to interconnect future travelers with travel agencies all over the world so they can benefit a trip tailor made by someone on site with a good knowledge of the destination. The agency's first job is to respond to a potential traveler request with a travel proposition after discussing the traveler's wishes.
 
 Lately, I've been working on a rewrite of our routing system which for a given request selects the appropriate agency.
 
