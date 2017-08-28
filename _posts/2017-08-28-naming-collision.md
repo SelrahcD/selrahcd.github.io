@@ -60,14 +60,14 @@ I think we should also, at least, rename "from scratch" to "from destination" in
 
 I said "at least" because I'm not convinced we should tie the domain logic to the graphic interface and I believe we can come up with something better than a word such as meaningless as from is.
 
-As a start a request is not made from a destination but by someone who want to go to that destination. "A traveler makes a request for a trip to Italy", "For"* isn't a great word either but the direction seems to be correct at least. This needs some more digging.
+As a start a request is not made from a destination but by someone who want to go to that destination. "A traveler makes a request for a trip to Italy", "For"*1 isn't a great word either but the direction seems to be correct at least. This needs some more digging.
 
-Note that using "from" when talking about the proposition seems legitimate, the action direction is ok. "A proposition is built/prepared/conceived from an itinerary", "a proposition is built/prepared/conceived from scratch". Because an action takes a verb I think we would be better with including it in our discussions and in the code. This would add meaning and reduce the risk of another collision**.
+Note that using "from" when talking about the proposition seems legitimate, the action direction is ok. "A proposition is built/prepared/conceived from an itinerary", "a proposition is built/prepared/conceived from scratch". Because an action takes a verb I think we would be better with including it in our discussions and in the code. This would add meaning and reduce the risk of another collision*2.
 
 The next step is to work on the naming with the business people, trying to find something that makes sense and provide meaning. This will probably require to use verbs alongside preposition but this is for the best and that will reduce the risk of future collisions.
 
-*I hesitated with going with "to" instead of "for". None of them are really convincing. Looks like a good warning that they probably aren't the best suited for the job.
+*1 I hesitated with going with "to" instead of "for". None of them are really convincing. Looks like a good warning that they probably aren't the best suited for the job.
 
-**"That proposition built **from** scratch and travel starts **from** Paris". Not the best example ever but you get my point.
+*2 "That proposition built **from** scratch and travel starts **from** Paris". Not the best example ever but you get my point.
 
 Hey! I'm on [Twitter](https://twitter.com/selrahcd) and if you feel like playing the "Jeu des mots" with me I promise we'll have some fun! You can comment below as well.
