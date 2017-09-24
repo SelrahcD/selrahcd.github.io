@@ -10,7 +10,7 @@ published: true
 comments: true
 ---
 
-When we write tests we want to achieve several things: ensure that the code works, create documentation, gain feedback about the ease of use of the system we are building and the quality of it's design.
+When we write tests we want to achieve several things: ensure that the code works, create documentation, gain feedback about the ease of use of the system we are building and the quality of its design.
 
 Creating documentation with tests goes through good test case naming. We want the name of our test cases to express the behavior of the system under test, or even better, the business rules of the domain.
 
