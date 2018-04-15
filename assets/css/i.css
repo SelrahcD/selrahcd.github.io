@@ -592,7 +592,7 @@ header.site-header nav {
       display: block;
       float: none;
       font-size: 32px;
-      margin-bottom: 66px;
+      margin-bottom: 10px;
       position: relative; }
       .archive-wrap .post-list li a {
         position: relative; }
@@ -857,6 +857,15 @@ footer {
 
 .disqus {
   margin-top: 99px; }
+
+.video-container {
+    text-align: center;
+    margin-bottom: 16.5px;
+}
+
+.slideshare {
+    margin-bottom: 16.5px;
+}
 
 /* Tablet
    ========================================================================== */

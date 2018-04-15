@@ -366,7 +366,7 @@ header.site-header nav {
             display: block;
             float: none;
             font-size: $fs3;
-            margin-bottom: $lh*2;
+            margin-bottom: $lh;
             position: relative;
 
             a {
@@ -872,4 +872,15 @@ small {
     font-size: $fs6;
 }
 
+}
+
+
+
+.video-container {
+    text-align: center;
+    margin-bottom: $lh/2;
+}
+
+.slideshare {
+    margin-bottom: $lh/2;
 }

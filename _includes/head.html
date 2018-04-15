@@ -32,7 +32,7 @@
 
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ site.url }}/assets/css/i.css">
+<link rel="stylesheet" href="/assets/css/i.css">
 <link rel="stylesheet" href="https://raw.githubusercontent.com/StylishThemes/GitHub-Dark/master/themes/ambiance.min.css">
 
 <!-- Fresh Squeezed jQuery -->
@@ -60,8 +60,13 @@
         <nav role="navigation">
           <ul>
             <li>
-              <a href="/" title="{{ site.title }}">Home</a>
-            </li>AAAAAA
+              <a href="/articles" title="Articles">Articles</a>
+            </li>
+            <li>
+              <a href="/talks" title="Talks">Talks</a>
+            </li>
+
+
 
             {% for link in site.links %}
                 <li><a href="{% if link.external %}{{ link.url }}{% else %}{{ site.url }}{{ link.url }}{% endif %}" {% if link.external %}target="_blank"{% endif %}>{{ link.title }}</a></li>
