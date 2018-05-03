@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: Les expressions, oui, mais pas n'importe comment
+title: Les exceptions, oui, mais pas n'importe comment
 description: ""
 category: talk
 tags:
