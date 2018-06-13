@@ -24,7 +24,7 @@ What if the day we have to scale for a large number of users never comes?
 
 What if by the day we actually have to offer offline service we can use some other tool better suited for that need?
 
-What if we've imagined all the possible future requirements and made a system that can deal with them all except one  That one we have to implement after all, than one we can't introduce because we've been too clever and have created a system locked by its abstractions.
+What if we've imagined all the possible future requirements and made a system that can deal with them all except one  That one we have to implement after all, that one we can't introduce because we've been too clever and have created a system locked by its abstractions.
 
 Sounds familiar?
 
