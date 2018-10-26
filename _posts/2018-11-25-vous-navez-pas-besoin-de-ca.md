@@ -5,7 +5,7 @@ description: ""
 category: talk
 tags:
   - complexity
-  - qualitu
+  - quality
 published: true
 comments: false
 
