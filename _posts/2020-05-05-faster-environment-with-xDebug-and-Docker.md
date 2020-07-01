@@ -81,7 +81,7 @@ cat >&2 <<EOF
 ⚠️  xDebug is disabled
 EOF
 
-elif [[ -f "/etc/php/5.6/mods-available/xdebug.ini.back" ]]; then
+elif [[ -z "$DISABLE_XDEBUG" || "$DISABLE_XDEBUG" = false && -f "/etc/php/5.6/mods-available/xdebug.ini.back" ]]; then
 mv /etc/php/5.6/mods-available/xdebug.ini.back /etc/php/5.6/mods-available/xdebug.ini
 fi
 
