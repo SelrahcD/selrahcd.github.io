@@ -2,11 +2,11 @@
 layout: "post-no-feature"
 title: "Building an event-sourced game with Phoenix Liveview: Introduction"
 description: "Introduction to the serie about building an event-sourced game with Phoenix Liveview"
-image: /images/2020-12-22-phoenix-liveview-event-sourced-game-architecture/doctorp_macro.png
 category: articles
 tags:
  - "Event sourcing"
  - Elixir
+ - DoctorP
 published: true
 comments: true
 ---
