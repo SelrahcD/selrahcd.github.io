@@ -877,6 +877,13 @@ footer {
     margin-bottom: 16.5px;
 }
 
+.series {
+    border: 1px solid rgba(217, 217, 217, 0.6);
+    background-color: rgba(217, 217, 217, 0.3);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
 /* Tablet
    ========================================================================== */
 @media only screen and (max-width: 800px) {
