@@ -1,8 +1,10 @@
 title: "chorip.am"
-tagline:          A beautiful theme.
-description:      Charles Desneuf's, SelrahcD, personal blog on development where he shares his ideas on Coding, Testing, DDD, Agile, Event Sourcing, CQRS, PHP, Elixir...
+description: "Charles Desneuf's, SelrahcD, personal blog on development where he shares his ideas on Coding, Testing, DDD, Agile, Event Sourcing, CQRS, PHP, Elixir..."
 #Comment out url when working locally to resolve base urls correctly
 url: http://blog.chorip.am
+twitter:
+  username: SelrahcD
+  card: summary
 
 # Owner/author information
 owner:
