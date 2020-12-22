@@ -11,11 +11,14 @@
         {% endfor %}
       </ol>
 
+      {%if site.owner.bio %}
+        <div class="bio">
+          {{ site.owner.bio }}
+        </div>
+      {% endif %}
+
       <div class="social">
         <ul>
-          {% if site.owner.email %}
-            <li><a id="mail" href="mailto:{{ site.owner.email }}"><span class="foot-link">Contact Me</span></a></li>
-            {% endif %}
 
             {% if site.owner.twitter %}
             <li><a id="twit" href="http://twitter.com/{{ site.owner.twitter }}" target="_blank"><span class="foot-link">@{{ site.owner.twitter }}</span></a></li>

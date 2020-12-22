@@ -1,15 +1,15 @@
 title: "chorip.am"
 tagline:          A beautiful theme.
-description:      Describe your website.
+description:      Charles Desneuf's, SelrahcD, personal blog on development where he shares his ideas on Coding, Testing, DDD, Agile, Event Sourcing, CQRS, PHP, Elixir...
 #Comment out url when working locally to resolve base urls correctly
 url: http://blog.chorip.am
 
 # Owner/author information
 owner:
-  name:           SelrahcD
+  name:           Charles Desneuf
   avatar:         avatar.png
-  bio:
-  email:
+  bio: Charles Desneuf is a French developer, agile & architecture coach. He helps teams building product that serves the needs of its users.
+  email:          c.desneuf@gmail.com
   twitter:        SelrahcD
   github:         selrahcd
   instagram:
@@ -42,3 +42,4 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag

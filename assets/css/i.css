@@ -839,6 +839,16 @@ footer {
         font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", "Arial", sans-serif;
         text-transform: uppercase;
         text-align: right; }
+
+  footer .bio {
+      position: absolute;
+      top: 109px;
+      width: 14.16667%;
+      margin: 0 30%;
+      right: 5vw;
+      font-style: italic;
+  }
+  
   footer .social {
     position: absolute;
     top: 109px;
