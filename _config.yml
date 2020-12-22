@@ -9,7 +9,7 @@ twitter:
 # Owner/author information
 owner:
   name:           Charles Desneuf
-  avatar:         avatar.png
+  avatar:         avatar.jpg
   bio: Charles Desneuf is a French developer, agile & architecture coach. He helps teams building product that serves the needs of its users.
   email:          c.desneuf@gmail.com
   twitter:        SelrahcD
@@ -45,3 +45,10 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /images/avatar.jpeg
