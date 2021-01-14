@@ -7,6 +7,8 @@ tags:
  - "Event sourcing"
  - Elixir
  - DoctorP
+ - Liveview
+ - Phoenix
 published: true
 comments: true
 ---
@@ -16,6 +18,7 @@ comments: true
     <ul>
         <li><a href="/articles/phoenix-liveview-event-sourced-game-intro">Introduction</a></li>
         <li><a href="/articles/phoenix-liveview-event-sourced-game-architecture">Architecture</a></li>
+        <li><a href="articles/phoenix-liveview-event-sourced-game-event-sourced-model">Game logic: an event sourced model</a></li>
     </ul>
 </div>
 
