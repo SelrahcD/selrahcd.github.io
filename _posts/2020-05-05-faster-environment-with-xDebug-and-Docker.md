@@ -89,7 +89,7 @@ The container can be started either with docker-compose or docker run and xDebug
 
 We now have a convenient way to enable xDebug only when needed and save some precious time not waiting in front of loading pages. The only thing required is to change the value of the variable and restart the container.
 
-## Extra tip:
+## Extra tip
 xDebug settings can be overridden using the XDEBUG_CONFIG environment variable, which means there is no need to update the xDebug config file every time you have to change a setting or if you and your teammates need different settings.
 
 The best example is probably the `remote_host`. According to how you run docker, this setting could be a changing IP address or `host.docker.internal` if you're using Docker for Mac.
