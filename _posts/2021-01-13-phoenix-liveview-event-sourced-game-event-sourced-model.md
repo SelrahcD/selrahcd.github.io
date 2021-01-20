@@ -19,6 +19,7 @@ comments: true
         <li><a href="/articles/phoenix-liveview-event-sourced-game-intro">Introduction</a></li>
         <li><a href="/articles/phoenix-liveview-event-sourced-game-architecture">Architecture</a></li>
         <li><a href="articles/phoenix-liveview-event-sourced-game-event-sourced-model">Game logic: an event sourced model</a></li>
+        <li><a href="articles/phoenix-liveview-event-sourced-game-handling-errors">Game logic: handling errors</a></li>
     </ul>
 </div>
 
