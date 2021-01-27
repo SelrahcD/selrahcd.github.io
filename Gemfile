@@ -6,3 +6,5 @@ gem 'coderay'
 gem 'rake'
 gem 'jekyll-feed'
 gem 'jekyll-seo-tag'
+gem 'jekyll-json-feed'
+
