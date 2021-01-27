@@ -45,7 +45,6 @@ exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-json-feed
 
 
 defaults:
