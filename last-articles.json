@@ -5,14 +5,10 @@ permalink: /last-articles.json
 [
 	 {% for post in site.categories['articles'] limit:10 %}
     {
-		"title": "{{ post.title }}",
-		"tags": [
-			 {% for tag in post.tags %}
-				"{{ tag }}"
-				{% if forloop.last == false %},{% endif %}
-			{% endfor %}
-		],
-		"description": "{{ post.description }}"
+		"title": {{ post.title | jsonify }},
+		"url": {{ post.url | absolute_url | jsonify }},
+		"tags": {{ post.tags | jsonify }},
+		"description": {{ post.description | jsonify }}
 	}{% if forloop.last == false %},{% endif %}
    {% endfor %}
 	
