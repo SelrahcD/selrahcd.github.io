@@ -1,7 +1,7 @@
 ---
 layout: "post-no-feature"
 title: "Building an event-sourced game with Phoenix Liveview: Expressing domain concepts in the code"
-description: "In this article, we'll see how I we can express domain concepts in the code, and reduce the size of the GameState module."
+description: "In this article, we'll see how we can express domain concepts in the code, and reduce the size of the GameState module."
 category: articles
 tags:
  - "Event sourcing"
