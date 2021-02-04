@@ -1,8 +1,9 @@
 ---
 layout: "post-no-feature"
 title: "Building an event-sourced game with Phoenix Liveview: Making game states explicit"
-description: "In this article, we'll see how we can express domain concepts in the code, and reduce the size of the GameState module."
+description: "Type system can help express a system capabilty, what can be done, or prevent from misusage. This article shows how theses ideas were applied to express the game states."
 category: articles
+image: /images/2021-02-04-phoenix-liveview-event-sourced-game-making-game-states-explicit/state_transitions.png
 tags:
  - "Event sourcing"
  - Elixir
@@ -199,7 +200,7 @@ I'm still puzzled about directly using another module structure in a different m
 
 Here is a schema of part of the state machine, with events leading to the same states and others occasioning transitions.
 
-![AAA](/images/2021-02-04-phoenix-liveview-event-sourced-game-making-game-states-explicit/state_transitions.png)
+![State transitions schemas](/images/2021-02-04-phoenix-liveview-event-sourced-game-making-game-states-explicit/state_transitions.png)
 
 ## What's left to GameState
 
