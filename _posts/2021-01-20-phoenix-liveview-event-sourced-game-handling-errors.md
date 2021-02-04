@@ -21,10 +21,11 @@ comments: true
         <li><a href="/articles/phoenix-liveview-event-sourced-game-event-sourced-model">Game logic: an event sourced model</a></li>
         <li><a href="/articles/phoenix-liveview-event-sourced-game-handling-errors">Game logic: handling errors</a></li>
         <li><a href="/articles/phoenix-liveview-event-sourced-game-expressing-domain-concepts-in-code">Game logic: Expressing domain concepts</a></li>
+        <li><a href="/articles/phoenix-liveview-event-sourced-game-making-game-states-explicit">Game logic: Making game states explicit</a></li>
     </ul>
 </div>
 
-In the previous article, we've set-up everything required for a basic event-sourced model.
+In [the previous article](/articles/phoenix-liveview-event-sourced-game-event-sourced-model), we've set-up everything required for a basic event-sourced model.
 
 We can:
 * record the decisions taken by the game logic in the form of events
