@@ -884,6 +884,32 @@ footer {
     margin-bottom: 10px;
 }
 
+
+
+.related-articles {
+  margin-top: 66px;
+}
+
+.related-articles .articles-container {
+  padding-top:16px;
+}
+
+.related-articles .article-title {
+  font-size: 24px;
+}
+
+ul.tags {
+  padding-left: 0;
+}
+
+ul.tags li{
+  margin:0;
+  display: inline;
+  font-size: 12px;
+}
+
+
+
 /* Tablet
    ========================================================================== */
 @media only screen and (max-width: 800px) {

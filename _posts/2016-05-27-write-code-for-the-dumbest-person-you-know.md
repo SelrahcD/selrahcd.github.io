@@ -5,7 +5,7 @@ description: "I'm dumb and I can't understand your clever code."
 category: articles
 tags:
   - Dev
-  - craftsmanship
+  - Craftsmanship
 published: true
 comments: true
 

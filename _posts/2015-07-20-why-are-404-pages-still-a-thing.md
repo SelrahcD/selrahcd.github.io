@@ -7,6 +7,7 @@ tags:
   - Dev
   - Business
   - Web
+  - Craftsmanship
 published: true
 comments: true
 ---

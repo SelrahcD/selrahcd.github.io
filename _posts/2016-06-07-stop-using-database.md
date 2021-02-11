@@ -5,7 +5,7 @@ description: "I think we should start using database less."
 category: articles
 tags:
   - Dev
-  - craftsmanship
+  - Craftsmanship
 published: true
 comments: true
 

@@ -5,7 +5,7 @@ description: "A finalist for the worst anti-pattern tournament."
 category: articles
 tags:
   - Dev
-  - craftsmanship
+  - Craftsmanship
   - OOP
   - anti-pattern
 published: true
