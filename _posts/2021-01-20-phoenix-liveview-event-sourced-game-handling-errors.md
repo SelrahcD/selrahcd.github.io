@@ -22,6 +22,7 @@ comments: true
         <li><a href="/articles/phoenix-liveview-event-sourced-game-handling-errors">Game logic: handling errors</a></li>
         <li><a href="/articles/phoenix-liveview-event-sourced-game-expressing-domain-concepts-in-code">Game logic: Expressing domain concepts</a></li>
         <li><a href="/articles/phoenix-liveview-event-sourced-game-making-game-states-explicit">Game logic: Making game states explicit</a></li>
+        <li><a href="/articles/phoenix-liveview-event-sourced-game-game-server">Game Server</a></li>
     </ul>
 </div>
 
