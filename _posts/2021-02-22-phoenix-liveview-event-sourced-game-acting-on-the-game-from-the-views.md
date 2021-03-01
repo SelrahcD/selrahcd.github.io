@@ -25,6 +25,7 @@ comments: true
         <li><a href="/articles/phoenix-liveview-event-sourced-game-making-game-states-explicit">Game logic: Making game states explicit</a></li>
         <li><a href="/articles/phoenix-liveview-event-sourced-game-game-server">Game Server</a></li>
         <li><a href="/articles/phoenix-liveview-event-sourced-game-acting-on-the-game-from-the-views">Views: Acting on the game from the views</a></li>
+        <li><a href="/articles/phoenix-liveview-event-sourced-game-building-views-states-and-reacting-to-changes">Views: Building the view's states from the events and reacting to changes</a></li>
     </ul>
 </div>
 
@@ -196,5 +197,5 @@ If `GameServer.add_player` returns the `{:error, :player_name_not_available}` er
 
 ![Name already taken error displayed](/images/2021-02-22-phoenix-liveview-event-sourced-game-acting-on-the-game-from-the-views/name_taken_error.jpg)
 
-That's it for this article. We've covered all needed for players to act against the game. In the next article, we'll see how the view constructs its state from the game's state.
+That's it for this article. We've covered all needed for players to act against the game. In the next article, [we'll see how the view constructs its state from the game's state](/articles/phoenix-liveview-event-sourced-game-building-views-states-and-reacting-to-changes).
 
