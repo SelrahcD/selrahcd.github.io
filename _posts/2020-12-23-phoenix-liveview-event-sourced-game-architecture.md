@@ -27,6 +27,7 @@ comments: true
         <li><a href="/articles/phoenix-liveview-event-sourced-game-game-server">Game Server</a></li>
         <li><a href="/articles/phoenix-liveview-event-sourced-game-acting-on-the-game-from-the-views">Views: Acting on the game from the views</a></li>
         <li><a href="/articles/phoenix-liveview-event-sourced-game-building-views-states-and-reacting-to-changes">Views: Building the view's states from the events and reacting to changes</a></li>
+        <li><a href="/articles/phoenix-liveview-event-sourced-game-building-decrementing-the-timer">Decrementing the timer</a></li>
     </ul>
 </div>
 

@@ -25,6 +25,8 @@ comments: true
         <li><a href="/articles/phoenix-liveview-event-sourced-game-game-server">Game Server</a></li>
         <li><a href="/articles/phoenix-liveview-event-sourced-game-acting-on-the-game-from-the-views">Views: Acting on the game from the views</a></li>
         <li><a href="/articles/phoenix-liveview-event-sourced-game-building-views-states-and-reacting-to-changes">Views: Building the view's states from the events and reacting to changes</a></li>
+         <li><a href="/articles/phoenix-liveview-event-sourced-game-building-decrementing-the-timer">Decrementing the timer</a>
+        </li>
     </ul>
 </div>
 
@@ -243,5 +245,5 @@ The `apply_event` function called in `handle_info` is the same one used when the
 
 That's it! We've seen everything needed for our views to display the correct information when they are mounted or when something occurs in the game. 
 
-In the next article, we'll see the part I enjoyed the most coding in this project, as it forced me to rethink some pieces and improve the design, which is dealing with the timer.
+In the next article, we'll see the part I enjoyed the most coding in this project, as it forced me to rethink some pieces and improve the design, which is [dealing with the timer](/articles/phoenix-liveview-event-sourced-game-building-decrementing-the-timer).
 
