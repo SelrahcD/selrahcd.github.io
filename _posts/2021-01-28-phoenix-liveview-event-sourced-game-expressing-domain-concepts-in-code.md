@@ -38,7 +38,7 @@ The module size keeps growing, and it's time to start splitting, keeping things 
 
 This article describes one way of splitting the code. In the next article, we'll see the second one.
 
-# Splitting up
+## Splitting up
 
 So far, the `GameState` module contains all the information in a map and all the logic to deal with adding a player, dealing card to a player, starting the timer, ...
 
@@ -79,7 +79,7 @@ defmodule Scoreboard do
 end
 ```
 
-# Incrementing team score
+## Incrementing team score
 
 When a team wins a point, we want to keep track of it by producing an event. The `Scoreboard` module is an excellent place to put this logic. It makes for a more cohesive base code: everything related to tracking points stays inside the same module.
 
@@ -122,7 +122,7 @@ I've not simplified the code too much to show that sometimes multiple modules ar
 The `ActionResult` module makes it convenient to group events coming from several modules.
 
 
-# Rebuilding Scoreboard state
+## Rebuilding Scoreboard state
 
 We've seen that state contains the scoreboard in previous snippets, but we haven't seen yet how the scoreboard state is maintained.
 
@@ -144,7 +144,7 @@ def apply_event(%{} = state, %TeamGotAPoint{} = e), do:
   %{state | scoreboard: Scoreboard.apply_event(state.scoreboard, e)}
 ```
 
-# Going further
+## Going further
 
 During this article's redaction, an idea popped up in my head that I haven't tried but is worth sharing.
 

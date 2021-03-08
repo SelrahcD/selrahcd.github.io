@@ -36,7 +36,7 @@ The first mode of building the view is rebuilding. When the view is loaded, we w
 
 The second mode is the running mode of building the view: when something occurs in the game, we want displayed information to change if necessary. 
 
-# Rebuilding the view
+## Rebuilding the view
 
 First, let's introduce the `EventSourcedLiveView` module that will encapsulate logic commons to all event-based views.
 
@@ -149,7 +149,7 @@ This function, alongside the private `add_player_to_teams` function, adds the pl
 
 
 
-# Modifying the state while the game is running
+## Modifying the state while the game is running
 
 We've seen just above how the view state is built from the already known events when the view is mounted, but we haven't touched the funnier part yet, modifying the view when something occurs in the game. We'll see this in that second section.
 

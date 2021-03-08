@@ -33,7 +33,7 @@ In the previous articles, we've looked at the design of the game's rules. Now is
 
 We've seen that we can interact with a game via the `GameState` module by providing a list of events and a command. We still need some way to store the events, and for this, we'll use a GenServer.
 
-# Skeleton of `GameServer`
+## Skeleton of `GameServer`
 
 `GameServer` module is a `GenServer` which allows keeping track of the events in a process.
 
@@ -61,7 +61,7 @@ We can start a `GameServer` using the `start_link` function, passing a keyword l
 
 We also want to keep track of several games at the same time and to be able to interact with them using their game id. I've decided to use the via tuple method to link a game id and the server PID in a Registry. `process_name` returns a tuple that indicates which registry and key to use to find the server.
 
-# Playing
+## Playing
 
 The next thing to do is to be able to act on the `GameServer`.
 

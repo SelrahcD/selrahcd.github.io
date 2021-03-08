@@ -26,12 +26,13 @@ comments: true
         <li><a href="/articles/phoenix-liveview-event-sourced-game-game-server">Game Server</a></li>
         <li><a href="/articles/phoenix-liveview-event-sourced-game-acting-on-the-game-from-the-views">Views: Acting on the game from the views</a></li>
         <li><a href="/articles/phoenix-liveview-event-sourced-game-building-views-states-and-reacting-to-changes">Views: Building the view's states from the events and reacting to changes</a></li>
+        <li><a href="/articles/phoenix-liveview-event-sourced-game-building-decrementing-the-timer">Decrementing the timer</a></li>
     </ul>
 </div>
 
 In the last article, we've seen the [GameServer implementation](/articles/phoenix-liveview-event-sourced-game-game-server). It's now time to look at the views, specifically how players interact with the game.
 
-# Starting the game from the LiveView
+## Starting the game from the LiveView
 
 I decided to use LiveViews as they are convenient for real-time interactions without requiring any Javascript code.
 
@@ -68,7 +69,7 @@ end
 
 Thanks to the client function we've added to `GameServer` and being able to find it using the game ID, the implementation is easy. When a `start_playing` event is received by the LiveView process a call is issued to `GameServer.start_playing(socket.assigns.game_id)`.
 
-# Registering a player from the LiveView
+## Registering a player from the LiveView
 
 Registering a player is more complex because it involves a form for the player to specify her name.
 
@@ -153,7 +154,7 @@ If anything is not going as expected, we enter the `else` part of the `with` str
 ![Name can't be blank error displayed](/images/2021-02-22-phoenix-liveview-event-sourced-game-acting-on-the-game-from-the-views/name_blank_error.jpg)
 
 
-# Displaying errors from the `GameServer`
+## Displaying errors from the `GameServer`
 
 Another type of error is the ones returned by the GameServer when it cannot handle a command.
 
