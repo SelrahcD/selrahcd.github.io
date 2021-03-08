@@ -24,14 +24,15 @@ comments: true
         <li><a href="/articles/phoenix-liveview-event-sourced-game-game-server">Game Server</a></li>
         <li><a href="/articles/phoenix-liveview-event-sourced-game-acting-on-the-game-from-the-views">Views: Acting on the game from the views</a></li>
         <li><a href="/articles/phoenix-liveview-event-sourced-game-building-views-states-and-reacting-to-changes">Views: Building the view's states from the events and reacting to changes</a></li>
+        <li><a href="/articles/phoenix-liveview-event-sourced-game-building-decrementing-the-timer">Decrementing the timer</a></li>
     </ul>
 </div>
 
 I've been playing with Elixir for a while now. I've [created a Twitter bot](http://schtroumpsify.chorip.am), but I wanted to explore further what Elixir and Phoenix could help build for real-time collaboration between people. I was also curious about building a domain model with a functional programming language.
 
-During the first French lockdown, I had the idea of a project that could be a good experiment: a game. As we had some fun playing [Doctor Pillule](https://www.docteurpilule.com/), a French board game, I decided to build a digital version helping us to play with friends and family remotely.
+During the first French lockdown, I had the idea of a project that could be a good experiment: a game. As we had some fun playing [Doctor Pilule](https://www.docteurpilule.com/), a French board game, I decided to build a digital version helping us to play with friends and family remotely.
 
-## Doctor Pillule
+## Doctor Pilule
 
 The game is quite simple. Players are split into several teams, and each round, one player tries to make her other team members guess as many words as possible. The trick is that all players are given two uncommon handicaps, one spoken (ex: start all sentences by "I might sound crazy but...") and one driving actions (ex: you think you are the Eiffel tower).
 The first team to reach 20 guessed words wins.
