@@ -205,16 +205,14 @@ The `mount` function is changed to
 ```elixir
 def mount(params, session, socket) do
 
-  {game_id, additional_state} = view_init(params, session, socket)
+  {game_id, initial_state} = view_init(params, session, socket)
 
   if connected?(socket) do
     GamePubSub.subscribe(game_id)
   end
 
-  state = Map.merge(@default_state, additional_state)
-
   socket = socket
-           |> assign(set_state(state, GameServer.get_events(game_id)))
+           |> assign(set_state(initial_state, GameServer.get_events(game_id)))
 
   {:ok, socket}
 end
