@@ -1,7 +1,7 @@
 ---
 layout: "post-no-feature"
 title: "Building an event-sourced game with Phoenix Liveview: Unit testing patterns"
-description: "This article shows how to add a timer in an event-sourced game while keeping game logic decoupled from architecture concern using the send message to self pattern."
+description: "This article is an overview of some useful patterns when testing event-sourced application."
 category: articles
 tags:
  - "Event sourcing"
