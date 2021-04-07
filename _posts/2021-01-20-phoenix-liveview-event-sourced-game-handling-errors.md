@@ -26,6 +26,7 @@ comments: true
         <li><a href="/articles/phoenix-liveview-event-sourced-game-acting-on-the-game-from-the-views">Views: Acting on the game from the views</a></li>
         <li><a href="/articles/phoenix-liveview-event-sourced-game-building-views-states-and-reacting-to-changes">Views: Building the view's states from the events and reacting to changes</a></li>
         <li><a href="/articles/phoenix-liveview-event-sourced-game-building-decrementing-the-timer">Decrementing the timer</a></li>
+        <li><a href="/articles/phoenix-liveview-event-sourced-game-unit-testing-patterns">Unit testing patterns</a></li>
     </ul>
 </div>
 
@@ -41,7 +42,7 @@ So far, every command we've talked about was accepted by the game logic, process
 One example, we don't accept several players with the same name. When a player tries to register, but another player is already there with the name selected, we need to refuse the command and obviously inform the player.
 
 ## Rebuilding the state and our memory
-First, as a refresher, let's see how the state is built.
+First, as a hrefresher, let's see how the state is built.
 
 Let's pretend that a player named Jack wants to register.
 

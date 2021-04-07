@@ -29,6 +29,7 @@ comments: true
         <li><a href="/articles/phoenix-liveview-event-sourced-game-building-decrementing-the-timer">
         Decrementing the timer</a>
         </li>
+        <li><a href="/articles/phoenix-liveview-event-sourced-game-unit-testing-patterns">Unit testing patterns</a></li>
     </ul>
 </div>
 
