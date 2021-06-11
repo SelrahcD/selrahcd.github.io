@@ -32,4 +32,6 @@ That still requires some typing, if your shell doesn't have some sort if autocom
 
 As I'm in a quest for laziness and poking around with aliases, I decided to add a new one, `fa`, for “find alias” defined as `alias fa='alias | grep'`.
 
+![An example: searching for all aliases about stash](/images/2021-06-11-an-alias-to-learn-aliases/fa_run_stash.png)
+
 Just two letters, no more windows switching, and a lot of time saved.
