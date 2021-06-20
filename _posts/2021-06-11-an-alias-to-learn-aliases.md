@@ -7,6 +7,7 @@ category: articles
 tags:
  - bash
  - zsh
+ - productivity
 published: true
 comments: true
 ---
