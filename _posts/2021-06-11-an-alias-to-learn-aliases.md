@@ -8,6 +8,7 @@ tags:
  - bash
  - zsh
  - productivity
+ - TIL
 published: true
 comments: true
 ---
