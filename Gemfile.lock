@@ -263,7 +263,6 @@ DEPENDENCIES
   github-pages (~> 211)
   jekyll-feed
   jekyll-minibundle
-  jekyll-seo-tag
 
 BUNDLED WITH
    1.17.3
