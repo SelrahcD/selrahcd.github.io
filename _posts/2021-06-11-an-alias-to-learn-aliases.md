@@ -9,6 +9,7 @@ tags:
  - zsh
  - productivity
  - TIL
+ - alias
 published: true
 comments: true
 ---
