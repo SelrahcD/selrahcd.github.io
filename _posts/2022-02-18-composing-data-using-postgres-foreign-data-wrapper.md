@@ -2,7 +2,7 @@
 layout: "post-no-feature"
 title: "Composing data using Postgres Foreign Data Wrapper"
 description: "Composing data from several databases can be tricky, even worse if we need to do some paging, filtering and sorting. PostgreSQL comes with an extension making our life easier by creating remote table: tables based on a table from another server."
-image: /images/22022-02-18-composing-data-using-postgres-foreign-data-wrapper/carbon.png
+image: /images/2022-02-18-composing-data-using-postgres-foreign-data-wrapper/carbon.png
 category: articles
 tags:
  - postgres
@@ -177,7 +177,7 @@ In the `race_results_db` we will remove the existing remote table and create a n
 
 Now, we can rerun our query with the join:
 
-```sql
+``sql
 SELECT p.id, p.name, r.race, r.timing, p.status
 FROM race_results r
 JOIN ponies p ON r.pony = p.id;
