@@ -123,8 +123,7 @@ OPTIONS (schema_name 'public', table_name 'ponies');
 
 And now we can run a query with a join between race results and ponies, using the newly created foreign table:
 
-```
-sql
+```sql
 SELECT p.id, p.name, r.race, r.timing, p.status
 FROM race_results r
 JOIN ponies p ON r.pony = p.id;
@@ -177,7 +176,7 @@ In the `race_results_db` we will remove the existing remote table and create a n
 
 Now, we can rerun our query with the join:
 
-``sql
+```sql
 SELECT p.id, p.name, r.race, r.timing, p.status
 FROM race_results r
 JOIN ponies p ON r.pony = p.id;
