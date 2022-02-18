@@ -52,12 +52,12 @@ We will then create some tables and add data to the two instances.
 Once connected to the `ponies_db`, with `docker exec -ti ponies_db psql -U postgres` run the two following queries:
 
 ```sql
-  CREATE TABLE IF NOT EXISTS ponies (
+CREATE TABLE IF NOT EXISTS ponies (
    id serial PRIMARY KEY,
    name VARCHAR ( 50 ) UNIQUE NOT NULL,
    status INT NOT NULL DEFAULT 0);
 
-   INSERT INTO ponies(name, status) VALUES
+INSERT INTO ponies(name, status) VALUES
  ('Noisette', 1),
  ('Griotte', 2),
  ('Eole', 0);
@@ -76,12 +76,13 @@ CREATE TABLE IF NOT EXISTS race_results (
    timing INT NOT NULL);
 
 
-INSERT INTO race_results(race, pony, timing) VALUES
-('Fun fun', 1, 137),
-('Fun fun', 2, 125),
-('Fun fun', 3, 133),
-('Epic party race', 2, 79),
-('Epic party race', 3, 77);
+INSERT INTO race_results(race, pony, timing)
+VALUES
+    ('Fun fun', 1, 137),
+    ('Fun fun', 2, 125),
+    ('Fun fun', 3, 133),
+    ('Epic party race', 2, 79),
+    ('Epic party race', 3, 77);
 ```
 
 This just created a `race_results` table, each row being an id, a race name as a string, a pony - an integer, mapping to the id of a pony in the `ponies_db` database, and some timing in the second.
@@ -98,8 +99,8 @@ Declare a remote server, pointing to the `ponies_db` server:
 
 ```sql
 CREATE SERVER ponies
-    FOREIGN DATA WRAPPER postgres_fdw
-    OPTIONS (host 'ponies_db', port '5432');
+FOREIGN DATA WRAPPER postgres_fdw
+OPTIONS (host 'ponies_db', port '5432');
 ```
 
 and tell which user to use for the connection:
@@ -164,14 +165,14 @@ CREATE VIEW public_ponies AS
 
 In the `race_results_db` we will remove the existing remote table and create a new one based on the view:
 ```sql
-    DROP FOREIGN TABLE ponies;
+DROP FOREIGN TABLE ponies;
 
-    CREATE FOREIGN TABLE ponies (
+CREATE FOREIGN TABLE ponies (
     id serial,
     name VARCHAR ( 50 ),
     status VARCHAR)
-    SERVER ponies
-    OPTIONS (schema_name 'public', table_name 'public_ponies');
+SERVER ponies
+OPTIONS (schema_name 'public', table_name 'public_ponies');
 ```
 
 Now, we can rerun our query with the join:
