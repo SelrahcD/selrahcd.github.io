@@ -1,7 +1,7 @@
 ---
 layout: "post-no-feature"
 title: "Test suite guidelines"
-description: "When facing a test harness it sometimes hard to decide which type of test to write, what it should cover, how we should write it. I believe we would stop losing time and remove frustration by adding guideline for our test suites."
+description: "When looking at a test harness, it's sometimes hard to decide which type of test to write, what it should cover, how we should write it. I believe we would stop losing time and remove frustration by adding guidelines for our test suites."
 category: articles
 tags:
  - Testing
@@ -21,7 +21,7 @@ We needed some sort of documentation explaining the rationale behind the differe
 
 Test suites were organized by directories, each containing some type of test. As expected, some tests weren't looking like the others in the same directory, but it was a start. We could have a README file in each directory explaining what tests should look like in there. This is the idea I wanted to talk about. It's relatively simple and can probably avoid losing time, improve team speed, and remove some frustration.
 
-As an alternative, we could use Architecture Decision Record. In my opinion, having the description file closer to the tests is better because it makes it easy to find when needed.
+As an alternative, we could use [Architecture Decision Record](https://github.com/joelparkerhenderson/architecture-decision-record). In my opinion, having the description file closer to the tests is better because it makes it easy to find when needed.
 
 ## What should we find in the README file
 
