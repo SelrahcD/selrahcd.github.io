@@ -9,7 +9,7 @@ tags:
 published: true
 comments: true
 ---
-Yesterday I watched again the ["Breaking up (with) your test suite" talk](https://www.youtube.com/watch?v=9_3RsSvgRd4) by [Justin Searls](https://twitter.com/searls), and it resonated with an idea I recently had while working on a project for one of my clients. I even suspect that my idea is actually Justin's one and that my brain conveniently remembered it when I needed it.
+Yesterday I watched again the ["Breaking up (with) your test suite" talk](https://burritalks.io/talks/justin-searls-breaking-up-with-your-test-suite/?utm_medium=referral&utm_source=chorip.am&utm_campaign=choripam_test_suite_guideline_article) by [Justin Searls](https://twitter.com/searls), and it resonated with an idea I recently had while working on a project for one of my clients. I even suspect that my idea is actually Justin's one and that my brain conveniently remembered it when I needed it.
 
 I planned to write about this for a while, and I guess it's a sign that I should stop postponing.
 
@@ -29,7 +29,7 @@ The README file should be beneficial to newcomers, more junior developers, or ev
 
 ![Sandi Metz's SUT as a capsule](/images/2022-03-09-test-suite-guidelines/capsule.png)
 
-I really like [Sandi Metz's](https://twitter.com/sandimetz) description of the [system under test as a capsule](https://www.youtube.com/watch?v=URSWYvyc42M) we can send incoming commands and queries to and which, in turn, can send outgoing queries and commands to something else. I think the test suite guide should explain how incoming messages are generated:
+I really like [Sandi Metz's](https://twitter.com/sandimetz) description of the [system under test as a capsule](https://burritalks.io/talks/sandi-metz-the-magic-tricks-of-testing/?utm_medium=referral&utm_source=chorip.am&utm_campaign=choripam_test_suite_guideline_article) we can send incoming commands and queries to and which, in turn, can send outgoing queries and commands to something else. I think the test suite guide should explain how incoming messages are generated:
 * Are we allowed to call SUT methods directly?
 * Or should we go through something that exercises the UI and help us pretend we're a real user acting on a component?
 * Should we send an HTTP request to an endpoint?
