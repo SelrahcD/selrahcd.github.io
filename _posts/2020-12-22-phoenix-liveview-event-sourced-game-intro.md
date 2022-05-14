@@ -29,7 +29,7 @@ comments: true
     </ul>
 </div>
 
-I've been playing with Elixir for a while now. I've [created a Twitter bot](http://schtroumpsify.selrahcd.com), but I wanted to explore further what Elixir and Phoenix could help build for real-time collaboration between people. I was also curious about building a domain model with a functional programming language.
+I've been playing with Elixir for a while now. I've [created a Twitter bot](http://schtroumpsify.charlesdesneuf.com), but I wanted to explore further what Elixir and Phoenix could help build for real-time collaboration between people. I was also curious about building a domain model with a functional programming language.
 
 During the first French lockdown, I had the idea of a project that could be a good experiment: a game. As we had some fun playing [Doctor Pilule](https://www.docteurpilule.com/), a French board game, I decided to build a digital version helping us to play with friends and family remotely.
 

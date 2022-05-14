@@ -9,7 +9,7 @@ tags:
 published: true
 comments: true
 ---
-Yesterday I watched again the ["Breaking up (with) your test suite" talk](https://burritalks.io/talks/justin-searls-breaking-up-with-your-test-suite/?utm_medium=referral&utm_source=selrahcd.com&utm_campaign=choripam_test_suite_guideline_article) by [Justin Searls](https://twitter.com/searls), and it resonated with an idea I recently had while working on a project for one of my clients. I even suspect that my idea is actually Justin's one and that my brain conveniently remembered it when I needed it.
+Yesterday I watched again the ["Breaking up (with) your test suite" talk](https://burritalks.io/talks/justin-searls-breaking-up-with-your-test-suite/?utm_medium=referral&utm_source=charlesdesneuf.com&utm_campaign=choripam_test_suite_guideline_article) by [Justin Searls](https://twitter.com/searls), and it resonated with an idea I recently had while working on a project for one of my clients. I even suspect that my idea is actually Justin's one and that my brain conveniently remembered it when I needed it.
 
 I planned to write about this for a while, and I guess it's a sign that I should stop postponing.
 
